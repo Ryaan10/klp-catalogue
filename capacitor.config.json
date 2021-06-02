@@ -1,0 +1,6 @@
+{
+	"appId": "io.ionic.starter",
+	"appName": "KLP CATALOGUE",
+	"webDir": "dist",
+	"bundledWebRuntime": false
+}

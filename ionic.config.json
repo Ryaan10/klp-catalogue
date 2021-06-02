@@ -1,0 +1,7 @@
+{
+  "name": "KLP CATALOGUE",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "vue"
+}
