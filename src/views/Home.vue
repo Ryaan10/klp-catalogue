@@ -13,11 +13,11 @@
 
                 <ion-img :src="'/assets/homepage/menu text.jpg'" id="category"/>
                 <ion-img :src="'/assets/main category/category1.jpg'" id="category" router-link="/makeup"/>
-                <ion-img :src="'/assets/main category/category2.jpg'" id="category"/>
-                <ion-img :src="'/assets/main category/category3.jpg'" id="category"/>
-                <ion-img :src="'/assets/main category/category4.jpg'" id="category"/>
-                <ion-img :src="'/assets/main category/category5.jpg'" id="category"/>
-                <ion-img :src="'/assets/main category/category6.jpg'" id="category" style="margin-bottom: 10px"/>
+                <ion-img :src="'/assets/main category/category2.jpg'" id="category" router-link="/skincare"/>
+                <ion-img :src="'/assets/main category/category3.jpg'" id="category" router-link="/bodycare"/>
+                <ion-img :src="'/assets/main category/category4.jpg'" id="category" router-link="/haircare"/>
+                <ion-img :src="'/assets/main category/category5.jpg'" id="category" router-link="/treatments"/>
+                <ion-img :src="'/assets/main category/category6.jpg'" id="category" router-link="/packages" style="margin-bottom: 10px"/>
             </div>
         </ion-content>
     </ion-page>
