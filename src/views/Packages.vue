@@ -12,33 +12,29 @@
                 <ion-icon name="search-outline" style="color: white; font-size: 13px"></ion-icon>
                 <a style="color: white; margin-left: 3px; font-size: 13px; font-family: MontserratR; letter-spacing: 1px" @click="() => router.push('/home')">MAIN MENU</a> 
                 <ion-icon name="chevron-forward" style="color: white; margin-left: 3px; font-size: 13px"></ion-icon>
-                <a style="color: white; margin-left: 3px; font-size: 13px; font-family: MontserratR; letter-spacing: 1px">MAKE UP</a>
+                <a style="color: white; margin-left: 3px; font-size: 13px; font-family: MontserratR; letter-spacing: 1px">PACKAGES AND MEMBERSHIP</a>
 
                 <ion-img :src="'/assets/homepage/backbutton.svg'" @click="() => router.push('/home')" style="width: 25px; float: right; right: 0; position: absolute"/>
             </ion-list-header>
 
-            <ion-img :src="'/assets/homepage/1.jpg'"/>
-            <p id="category">MAKE UP <ion-img :src="'/assets/homepage/diamond.png'" style=" display: block; margin-left: auto; margin-right: auto; width: 30px; margin-top: 10px"/></p>
+            <ion-img :src="'/assets/homepage/6.jpg'"/>
+            <p id="category">PACKAGES AND MEMBERSHIP <ion-img :src="'/assets/homepage/diamond.png'" style=" display: block; margin-left: auto; margin-right: auto; width: 30px; margin-top: 10px"/></p>
             
             <ion-grid>
                 <ion-row>
                     <ion-col style="text-align: center;">
-                        <ion-img :src="'/assets/MAKEUP CATEGORY/Face.jpg'" @click="() => router.push('/makeupface')"/>
-                        <ion-card-content style="padding: 9px; background-color: black; color: white; font-size: 13px; border-style: solid; border-color: grey!important; border-width: 2px;">Face</ion-card-content>
+                        <ion-img :src="'/assets/PACKAGES AND MEMBERSHIP/platinum.jpg'" @click="() => router.push('/makeupface')"/>
+                        <ion-card-content style="padding: 9px; background-color: black; color: white; font-size: 13px; border-style: solid; border-color: grey!important; border-width: 2px;">PLATINUM MEMBER</ion-card-content>
                     </ion-col>
                     <ion-col style="text-align: center;">
-                        <ion-img :src="'/assets/MAKEUP CATEGORY/Eyes.jpg'" @click="() => router.push('/makeupeyes')"/>
-                        <ion-card-content style="padding: 9px; background-color: black; color: white; font-size: 13px; border-style: solid; border-color: grey!important; border-width: 2px;">Eyes</ion-card-content>
+                        <ion-img :src="'/assets/PACKAGES AND MEMBERSHIP/gold.jpg'" @click="() => router.push('/makeupeyes')"/>
+                        <ion-card-content style="padding: 9px; background-color: black; color: white; font-size: 13px; border-style: solid; border-color: grey!important; border-width: 2px;">GOLD MEMBER </ion-card-content>
                     </ion-col>
                 </ion-row>
                 <ion-row>
                     <ion-col style="text-align: center;">
-                        <ion-img :src="'/assets/MAKEUP CATEGORY/Lips.jpg'" @click="() => router.push('/makeuplips')"/>
-                        <ion-card-content style="padding: 9px; background-color: black; color: white; font-size: 13px; border-style: solid; border-color: grey!important; border-width: 2px;">Lips</ion-card-content>
-                    </ion-col> 
-                    <ion-col style="text-align: center;">
-                        <ion-img :src="'/assets/MAKEUP CATEGORY/Brushes.jpg'" @click="() => router.push('/makeupbrush')"/>
-                        <ion-card-content style="padding: 9px; background-color: black; color: white; font-size: 13px; border-style: solid; border-color: grey!important; border-width: 2px;">Brushes</ion-card-content>
+                        <ion-img :src="'/assets/PACKAGES AND MEMBERSHIP/diamond.jpg'" @click="() => router.push('/makeuplips')"/>
+                        <ion-card-content style="padding: 9px; background-color: black; color: white; font-size: 13px; border-style: solid; border-color: grey!important; border-width: 2px;">DIAMOND MEMBER</ion-card-content>
                     </ion-col>
                 </ion-row>
             </ion-grid>

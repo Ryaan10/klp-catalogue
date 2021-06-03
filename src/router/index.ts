@@ -7,6 +7,7 @@ import MakeupLips from '../views/MakeupLips.vue';
 import MakeupBrush from '../views/MakeupBrushes.vue';
 import MakeupEyes from '../views/MakeupEyes.vue';
 import Bodycare from '../views/Bodycare.vue';
+import Packages from '../views/Packages.vue';
 
 const routes: Array<RouteRecordRaw> = [
   {
@@ -47,6 +48,11 @@ const routes: Array<RouteRecordRaw> = [
     path: '/bodycare',
     name: 'bodycare',
     component: Bodycare
+  },
+  {
+    path: '/packages',
+    name: 'packages',
+    component: Packages
   }
 ]
 
