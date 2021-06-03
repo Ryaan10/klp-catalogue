@@ -4,6 +4,8 @@ import Home from '../views/Home.vue';
 import Makeup from '../views/Makeup.vue';
 import MakeupFace from '../views/MakeupFace.vue';
 import MakeupLips from '../views/MakeupLips.vue';
+import MakeupBrush from '../views/MakeupBrushes.vue';
+import MakeupEyes from '../views/MakeupEyes.vue';
 
 const routes: Array<RouteRecordRaw> = [
   {
@@ -29,6 +31,17 @@ const routes: Array<RouteRecordRaw> = [
     path: '/makeuplips',
     name: 'Makeuplips',
     component: MakeupLips
+  },
+  {
+    path: '/makeupbrush',
+    name: 'Makeupbrush',
+    component: MakeupBrush
+  }
+  ,
+  {
+    path: '/makeupeyes',
+    name: 'Makeupeyes',
+    component: MakeupEyes
   }
 ]
 
