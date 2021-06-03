@@ -17,7 +17,7 @@
                 <ion-img :src="'/assets/homepage/backbutton.svg'" @click="() => router.push('/home')" style="width: 25px; float: right; right: 0; position: absolute"/>
             </ion-list-header>
 
-            <ion-img :src="'/assets/MAKEUP CATEGORY/makeup.jpg'"/>
+            <ion-img :src="'/assets/homepage/1.jpg'"/>
             <p id="category">MAKE UP <ion-img :src="'/assets/homepage/diamond.png'" style=" display: block; margin-left: auto; margin-right: auto; width: 30px; margin-top: 10px"/></p>
             
             <ion-grid>
