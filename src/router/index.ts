@@ -6,6 +6,7 @@ import MakeupFace from '../views/MakeupFace.vue';
 import MakeupLips from '../views/MakeupLips.vue';
 import MakeupBrush from '../views/MakeupBrushes.vue';
 import MakeupEyes from '../views/MakeupEyes.vue';
+import Bodycare from '../views/Bodycare.vue';
 
 const routes: Array<RouteRecordRaw> = [
   {
@@ -36,12 +37,16 @@ const routes: Array<RouteRecordRaw> = [
     path: '/makeupbrush',
     name: 'Makeupbrush',
     component: MakeupBrush
-  }
-  ,
+  },
   {
     path: '/makeupeyes',
     name: 'Makeupeyes',
     component: MakeupEyes
+  },
+  {
+    path: '/bodycare',
+    name: 'bodycare',
+    component: Bodycare
   }
 ]
 
