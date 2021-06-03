@@ -3,6 +3,7 @@ import { RouteRecordRaw } from 'vue-router';
 import Home from '../views/Home.vue';
 import Makeup from '../views/Makeup.vue';
 import MakeupFace from '../views/MakeupFace.vue';
+import MakeupFaceList from '../views/MakeupFaceList.vue';
 import MakeupLips from '../views/MakeupLips.vue';
 import MakeupBrush from '../views/MakeupBrushes.vue';
 import MakeupEyes from '../views/MakeupEyes.vue';
@@ -24,9 +25,14 @@ const routes: Array<RouteRecordRaw> = [
     component: Makeup
   },
   {
-    path: '/makeupface',
+    path: '/makeupface/:id',
     name: 'MakeupFace',
     component: MakeupFace
+  },
+  {
+    path: '/makeupfacelist',
+    name: 'MakeupFaceList',
+    component: MakeupFaceList
   },
   {
     path: '/makeuplips',

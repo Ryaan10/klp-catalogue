@@ -23,7 +23,7 @@
             <ion-grid>
                 <ion-row>
                     <ion-col style="text-align: center;">
-                        <ion-img :src="'/assets/MAKEUP CATEGORY/Face.jpg'" @click="() => router.push('/makeupface')"/>
+                        <ion-img :src="'/assets/MAKEUP CATEGORY/Face.jpg'" @click="() => router.push('/makeupfacelist')"/>
                         <ion-card-content style="padding: 9px; background-color: black; color: white; font-size: 13px; border-style: solid; border-color: grey!important; border-width: 2px;">Face</ion-card-content>
                     </ion-col>
                     <ion-col style="text-align: center;">

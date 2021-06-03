@@ -20,11 +20,11 @@
             <ion-icon name="search-outline" style="color: white; font-size: 13px"></ion-icon>
             <a style="color: white; margin-left: 3px; font-size: 13px; font-family: MontserratR; letter-spacing: 1px" @click="() => router.push('/home')">MAIN MENU</a> 
             <ion-icon name="chevron-forward" style="color: white; margin-left: 3px; font-size: 13px"></ion-icon>
-            <a style="color: white; margin-left: 3px; font-size: 13px; font-family: MontserratR; letter-spacing: 1px" @click="() => router.push('/makeup')">MAKE UP</a> 
+            <a style="color: white; margin-left: 3px; font-size: 13px; font-family: MontserratR; letter-spacing: 1px" url="/makeup">MAKE UP</a> 
             <ion-icon name="chevron-forward" style="color: white; margin-left: 3px; font-size: 13px"></ion-icon>
             <a style="color: white; margin-left: 3px; font-size: 13px; font-family: MontserratR; letter-spacing: 1px">FACE</a> 
 
-            <ion-img :src="'/assets/homepage/backbutton.svg'" @click="() => router.push('/makeup')" style="width: 25px; float: right; right: 0; position: absolute"/>
+            <ion-img :src="'/assets/homepage/backbutton.svg'" @click="backToList()" style="width: 25px; float: right; right: 0; position: absolute"/>
         </ion-list-header>
         
         <!-- Product -->
@@ -172,31 +172,50 @@
 <script lang="ts">
 import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar, IonSlides, IonSlide } from '@ionic/vue';
 import { defineComponent } from 'vue';
-import { useRouter } from 'vue-router'
+import { useRouter } from 'vue-router';
+import { useRoute } from 'vue-router';
 
 export default defineComponent({
-  name: 'Makeup',
-  components: {
-    IonContent,
-    IonHeader,
-    IonPage,
-    IonTitle,
-    IonToolbar,
-    IonSlides,
-    IonSlide
-  },
+    name: 'Makeup',
+    components: {
+        IonContent,
+        IonHeader,
+        IonPage,
+        IonTitle,
+        IonToolbar,
+        IonSlides,
+        IonSlide
+    },
     setup() {
-        const router = useRouter();
-
+        const router = useRouter(); 
         const slideOpts = {
             initialSlide: 0,
             speed: 400,
-          
-        };
-
-        return { router, slideOpts };
-
+        };        
+        return { router };
     },
+    computed:{
+        getItem: function(){
+            const route = useRoute();
+            const id = route.params;
+            const slideOpts = {
+                initialSlide: id.id,
+                speed: 400,
+                loop: true
+            };        
+            return {slideOpts, id};
+        },
+    },
+    methods:{
+        backToList() {
+            this.$router.push({name: "MakeupFaceList"})
+        },
+    }
+    
+
+
+
+
 
 });
 </script>

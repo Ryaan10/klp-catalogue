@@ -148,7 +148,7 @@
     import { useRouter } from 'vue-router'
 
     export default defineComponent({
-        name: 'Makeup',
+        name: 'MakeupEyes',
         components: {
             IonContent,
             IonHeader,
