@@ -2,13 +2,14 @@ import { createRouter, createWebHistory } from '@ionic/vue-router';
 import { RouteRecordRaw } from 'vue-router';
 import Home from '../views/Home.vue';
 import Makeup from '../views/Makeup.vue';
-import MakeupFace from '../views/MakeupFace.vue';
-import MakeupFaceList from '../views/MakeupFaceList.vue';
 import MakeupLips from '../views/MakeupLips.vue';
 import MakeupBrush from '../views/MakeupBrushes.vue';
 import MakeupEyes from '../views/MakeupEyes.vue';
 import Bodycare from '../views/Bodycare.vue';
 import Packages from '../views/Packages.vue';
+
+import MakeupFaceList from '../views/MakeupFace/MakeupFaceList.vue';
+import MakeupFace from '../views/MakeupFace/MakeupFace.vue';
 
 const routes: Array<RouteRecordRaw> = [
   {
