@@ -26,12 +26,14 @@
 
             <ion-img :src="'/assets/homepage/backbutton.svg'" @click="backToList()"  style="width: 35px; float: right; right: 8px; position: absolute"/>
         </ion-list-header>
+
+
         <ion-grid>
             <ion-row style="color: white">
                 <ion-col>
-                    <ion-icon name="chevron-back" style="color: white; margin-left: 3px; font-size: 28px; margin-top: 180px; position: fixed"></ion-icon>
-                </ion-col>
-                <ion-col>
+                    
+        <ion-icon name="chevron-back" style="color: white; margin-left: 3px; font-size: 28px; margin-top: 180px; position: absolute; left: 0"></ion-icon>
+        <ion-icon name="chevron-forward" style="color: white; margin-left: 3px; font-size: 28px; margin-top: 180px; position: absolute; right: 0"></ion-icon>
                     <div style="text-align: center; margin-top: 10px; color: white">
                         <ion-slides pager="false" :options="slideOpts">
                             <ion-slide>
@@ -47,9 +49,7 @@
                         </ion-slides>  
                     </div>
                 </ion-col>
-                <ion-col>
-                    <ion-icon name="chevron-forward" style="color: white; margin-left: 3px; font-size: 28px; margin-top: 180px; position: fixed"></ion-icon>
-                </ion-col>
+
             </ion-row>
         </ion-grid>
         
