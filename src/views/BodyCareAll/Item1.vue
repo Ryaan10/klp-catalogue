@@ -36,11 +36,12 @@
                         <ion-slides pager="false" :options="slideOpts" ref="mySlides">
                             <ion-slide>
                                 <div>
-                                    <ion-img :src="'/assets/BODY CARE CATEGORY/All Products/BODY BUTTER SET - ELBOWS BUTTER BAR or FOOT & HEEL BUTTER BAR_7900.png'" id="product" style="margin-top: 15px; margin-bottom: 15px; height: 300px;"/>
+                                    <ion-img :src="'/assets/BODY CARE CATEGORY/All Products/BODY BUTTER SET - ELBOWS BUTTER BAR or FOOT & HEEL BUTTER BAR_7900.jpg'" id="product" style="margin-top: 15px; margin-bottom: 15px; height: 300px;"/>
                                 </div>
                             </ion-slide>
                         </ion-slides>  
-                         <p style="font-size: 15px; font-family: MontserratR;">DETAILS</p>
+                        <p style="font-family: BodoniR;">₱7,900</p>
+                        <p style="font-size: 15px; font-family: MontserratR;">DETAILS</p>
                         <p style="padding-left: 10px; padding-right: 10px; font-size: 15px; font-family: MontserratR;">These beautifully scented solid butter bars melt at body temperature to eliminate any dryness. A real treat for an addictive pleasure.</p>
 
                          <p style="font-size: 15px; font-family: MontserratR;">HOW TO USE</p>
