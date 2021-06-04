@@ -60,14 +60,60 @@ import MakeupBrushesItem14 from '../views/MakeupBrushes/Item14.vue';
 import MakeupBrushesItem15 from '../views/MakeupBrushes/Item15.vue';
 
 import Skin24Gold from '../views/Skin24Gold/Skin24GoldList.vue';
+import Skin24GoldItem1 from '../views/Skin24Gold/Skin24GoldItem1.vue';
+import Skin24GoldItem2 from '../views/Skin24Gold/Skin24GoldItem2.vue';
+import Skin24GoldItem3 from '../views/Skin24Gold/Skin24GoldItem3.vue';
+import Skin24GoldItem4 from '../views/Skin24Gold/Skin24GoldItem4.vue';
+import Skin24GoldItem5 from '../views/Skin24Gold/Skin24GoldItem5.vue';
+
 import SkinCheckmate from '../views/SkinCheckmate/SkinCheckmateList.vue';
+import SkinCheckmateItem1 from '../views/SkinCheckmate/SkinCheckmateItem1.vue';
+import SkinCheckmateItem2 from '../views/SkinCheckmate/SkinCheckmateItem2.vue';
+import SkinCheckmateItem3 from '../views/SkinCheckmate/SkinCheckmateItem3.vue';
+import SkinCheckmateItem4 from '../views/SkinCheckmate/SkinCheckmateItem4.vue';
+
 import SkinCrystal from '../views/SkinCrystal/SkinCrystalList.vue';
+import SkinCrystalItem1 from '../views/SkinCrystal/SkinCrystalItem1.vue';
+import SkinCrystalItem2 from '../views/SkinCrystal/SkinCrystalItem2.vue';
+import SkinCrystalItem3 from '../views/SkinCrystal/SkinCrystalItem3.vue';
+
 import SkinFlashwhite from '../views/SkinFlashwhite/SkinFlashwhiteList.vue';
+import SkinFlashwhiteItem1 from '../views/SkinFlashwhite/SkinFlashwhiteItem1.vue';
+import SkinFlashwhiteItem2 from '../views/SkinFlashwhite/SkinFlashwhiteItem2.vue';
+import SkinFlashwhiteItem3 from '../views/SkinFlashwhite/SkinFlashwhiteItem3.vue';
+
 import SkinFreshwater from '../views/SkinFreshwater/SkinFreshwaterList.vue';
+import SkinFreshwaterItem1 from '../views/SkinFreshwater/SkinFreshwaterItem1.vue';
+import SkinFreshwaterItem2 from '../views/SkinFreshwater/SkinFreshwaterItem2.vue';
+import SkinFreshwaterItem3 from '../views/SkinFreshwater/SkinFreshwaterItem3.vue';
+import SkinFreshwaterItem4 from '../views/SkinFreshwater/SkinFreshwaterItem4.vue';
+
 import SkinHyaluronic from '../views/SkinHyaluronic/SkinHyaluronicList.vue';
+import SkinHyaluronicItem1 from '../views/SkinHyaluronic/SkinHyaluronicItem1.vue';
+import SkinHyaluronicItem2 from '../views/SkinHyaluronic/skinhyaluronicItem2.vue';
+import SkinHyaluronicItem3 from '../views/SkinHyaluronic/SkinHyaluronicItem3.vue';
+import SkinHyaluronicItem4 from '../views/SkinHyaluronic/skinhyaluronicItem4.vue';
+
+
 import SkinLuxuriant from '../views/SkinLuxuriant/SkinLuxuriantList.vue';
+import SkinLuxuriantItem1 from '../views/SkinLuxuriant/SkinLuxuriantItem1.vue';
+import SkinLuxuriantItem2 from '../views/SkinLuxuriant/SkinLuxuriantItem2.vue';
+import SkinLuxuriantItem3 from '../views/SkinLuxuriant/SkinLuxuriantItem3.vue';
+import SkinLuxuriantItem4 from '../views/SkinLuxuriant/SkinLuxuriantItem4.vue';
+import SkinLuxuriantItem5 from '../views/SkinLuxuriant/SkinLuxuriantItem5.vue';
+import SkinLuxuriantItem6 from '../views/SkinLuxuriant/SkinLuxuriantItem6.vue';
+
 import SkinPackages from '../views/SkinPackages/SkinPackagesList.vue';
+import SkinPackagesItem1 from '../views/SkinPackages/SkinPackagesItem1.vue';
+import SkinPackagesItem2 from '../views/SkinPackages/SkinPackagesItem2.vue';
+import SkinPackagesItem3 from '../views/SkinPackages/SkinPackagesItem3.vue';
+import SkinPackagesItem4 from '../views/SkinPackages/SkinPackagesItem4.vue';
+
 import SkinPeptide from '../views/SkinPeptide/SkinPeptideList.vue';
+import SkinPeptideItem1 from '../views/SkinPeptide/SkinPeptideItem1.vue';
+import SkinPeptideItem2 from '../views/SkinPeptide/SkinPeptideItem2.vue';
+import SkinPeptideItem3 from '../views/SkinPeptide/SkinPeptideItem3.vue';
+import SkinPeptideItem4 from '../views/SkinPeptide/SkinPeptideItem4.vue';
 
 import BodyCareAllList from '../views/BodyCareAll/BodyCareAllList.vue';
 import MakeupBodyCareItem1 from '../views/BodyCareAll/Item1.vue';
@@ -236,58 +282,247 @@ const routes: Array<RouteRecordRaw> = [
     component: MakeupEyesItem11
   },
 
-  // SKIN CARE ROUTE
-  {
-    path: '/skincare',
-    name: 'skincare',
-    component: Skincare
-  },
+
+// SKIN CARE START
+
+{
+  path: '/skincare',
+  name: 'skincare',
+  component: Skincare
+},
+
   {
     path: '/skin24gold',
     name: 'skin24gold',
     component: Skin24Gold
   },
+        {
+          path: '/skin24goldItem1',
+          name: 'skin24goldItem1',
+          component: Skin24GoldItem1
+        },
+        {
+          path: '/skin24goldItem2',
+          name: 'skin24goldItem2',
+          component: Skin24GoldItem2
+        },
+        {
+          path: '/skin24goldItem3',
+          name: 'skin24goldItem3',
+          component: Skin24GoldItem3
+        },
+        {
+          path: '/skin24goldItem4',
+          name: 'skin24goldItem4',
+          component: Skin24GoldItem4
+        },
+        {
+          path: '/skin24goldItem5',
+          name: 'skin24goldItem5',
+          component: Skin24GoldItem5
+        },
   {
     path: '/skincheckmate',
     name: 'skincheckmate',
     component: SkinCheckmate
   },
+        {
+          path: '/skincheckmateItem1',
+          name: 'skincheckmateItem1',
+          component: SkinCheckmateItem1
+        },
+        {
+          path: '/skincheckmateItem2',
+          name: 'skincheckmateItem2',
+          component: SkinCheckmateItem2
+        },
+        {
+          path: '/skincheckmateItem3',
+          name: 'skincheckmateItem3',
+          component: SkinCheckmateItem3
+        },
+        {
+          path: '/skincheckmateItem4',
+          name: 'skincheckmateItem4',
+          component: Skin24Gold
+        },
   {
     path: '/skincrystal',
     name: 'skincrystal',
     component: SkinCrystal
   },
+        {
+          path: '/skincrystalItem1',
+          name: 'skincrystalItem1',
+          component: SkinCrystalItem1
+        },
+        {
+          path: '/skincrystalItem2',
+          name: 'skincrystalItem2',
+          component: SkinCrystalItem2
+        },
+        {
+          path: '/skincrystalItem3',
+          name: 'skincrystalItem3',
+          component: SkinCrystalItem3
+        },
   {
     path: '/skinflashwhite',
     name: 'skinflashwhite',
     component: SkinFlashwhite
   },
+        {
+          path: '/skinflashwhiteItem1',
+          name: 'skinflashwhiteItem1',
+          component: SkinFlashwhiteItem1
+        },
+        {
+          path: '/skinflashwhiteItem2',
+          name: 'skinflashwhiteItem2',
+          component: SkinFlashwhiteItem2
+        },
+        {
+          path: '/skinflashwhiteItem3',
+          name: 'skinflashwhiteItem3',
+          component: SkinFlashwhiteItem3
+        },
   {
     path: '/skinfreshwater',
     name: 'skinfreshwater',
     component: SkinFreshwater
   },
+        {
+          path: '/skinfreshwaterItem1',
+          name: 'skinfreshwaterItem1',
+          component: SkinFreshwaterItem1
+        },
+        {
+          path: '/skinfreshwaterItem2',
+          name: 'skinfreshwaterItem2',
+          component: SkinFreshwaterItem2
+        },
+        {
+          path: '/skinfreshwaterItem3',
+          name: 'skinfreshwaterItem3',
+          component: SkinFreshwaterItem3
+        },
+        {
+          path: '/skinfreshwaterItem4',
+          name: 'skinfreshwaterItem4',
+          component: SkinFreshwaterItem4
+        },
   {
     path: '/skinhyaluronic',
     name: 'skinhyaluronic',
     component: SkinHyaluronic
   },
+        {
+          path: '/skinhyaluronicItem1',
+          name: 'skinhyaluronicItem1',
+          component: SkinHyaluronicItem1
+        },
+        {
+          path: '/skinhyaluronicItem2',
+          name: 'skinhyaluronicItem2',
+          component: SkinHyaluronicItem2
+        },
+        {
+          path: '/skinhyaluronicItem3',
+          name: 'skinhyaluronicItem3',
+          component: SkinHyaluronicItem3
+        },
+        {
+          path: '/skinhyaluronicItem4',
+          name: 'skinhyaluronicItem4',
+          component: SkinHyaluronicItem4
+        },
   {
     path: '/skinluxuriant',
     name: 'skinluxuriant',
     component: SkinLuxuriant
   },
+        {
+          path: '/skinluxuriantItem1',
+          name: 'skinluxuriantItem1',
+          component: SkinLuxuriantItem1
+        },
+        {
+          path: '/skinluxuriantItem2',
+          name: 'skinluxuriantItem2',
+          component: SkinLuxuriantItem2
+        },
+        {
+          path: '/skinluxuriantItem3',
+          name: 'skinluxuriantItem3',
+          component: SkinLuxuriantItem3
+        },
+        {
+          path: '/skinluxuriantItem4',
+          name: 'skinluxuriantItem4',
+          component: SkinLuxuriantItem4
+        },
+        {
+          path: '/skinluxuriantItem5',
+          name: 'skinluxuriantItem5',
+          component: SkinLuxuriantItem5
+        },
+        {
+          path: '/skinluxuriantItem6',
+          name: 'skinluxuriantItem6',
+          component: SkinLuxuriantItem6
+        },
   {
     path: '/skinpeptide',
     name: 'skinpeptide',
     component: SkinPeptide
   },
+        {
+          path: '/skinpeptideItem1',
+          name: 'skinpeptideItem1',
+          component: SkinPeptideItem1
+        },
+        {
+          path: '/skinpeptideItem2',
+          name: 'skinpeptideItem2',
+          component: SkinPeptideItem2
+        },
+        {
+          path: '/skinpeptideItem3',
+          name: 'skinpeptideItem3',
+          component: SkinPeptideItem3
+        },
+        {
+          path: '/skinpeptideItem4',
+          name: 'skinpeptideItem4',
+          component: SkinPeptideItem4
+        },
   {
     path: '/skinpackages',
     name: 'skinpackages',
     component: SkinPackages
   },
+        {
+          path: '/skinpackagesItem1',
+          name: 'skinpackagesItem1',
+          component: SkinPackagesItem1
+        },
+        {
+          path: '/skinpackagesItem2',
+          name: 'skinpackagesItem2',
+          component: SkinPackagesItem2
+        },
+        {
+          path: '/skinpackagesItem3',
+          name: 'skinpackagesItem3',
+          component: SkinPackagesItem3
+        },
+        {
+          path: '/skinpackagesItem4',
+          name: 'skinpackagesItem4',
+          component: SkinPackagesItem4
+        },
 
+ // SKIN CARE END
 
 
   {
