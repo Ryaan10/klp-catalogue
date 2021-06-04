@@ -37,6 +37,14 @@ import MakeupEyesItem9 from '../views/MakeupEyes/Item9.vue';
 import MakeupEyesItem10 from '../views/MakeupEyes/Item10.vue';
 import MakeupEyesItem11 from '../views/MakeupEyes/Item11.vue';
 
+import MakeupLipsList from '../views/MakeupLips/MakeupLipsList.vue';
+import MakeupLipsItem1 from '../views/MakeupLips/Item1.vue';
+import MakeupLipsItem2 from '../views/MakeupLips/Item2.vue';
+import MakeupLipsItem3 from '../views/MakeupLips/Item3.vue';
+import MakeupLipsItem4 from '../views/MakeupLips/Item4.vue';
+import MakeupLipsItem5 from '../views/MakeupLips/Item5.vue';
+import MakeupLipsItem6 from '../views/MakeupLips/Item6.vue';
+
 import Skin24Gold from '../views/Skin24Gold/Skin24GoldList.vue';
 import SkinCheckmate from '../views/SkinCheckmate/SkinCheckmateList.vue';
 import SkinCrystal from '../views/SkinCrystal/SkinCrystalList.vue';
@@ -270,6 +278,44 @@ const routes: Array<RouteRecordRaw> = [
     name: 'skinpackages',
     component: SkinPackages
   },
+
+
+
+  {
+    path: '/makeuplipslist',
+    name: 'MakeupLipsList',
+    component: MakeupLipsList
+  },
+  {
+    path: '/MakeupLipsItem1',
+    name: 'MakeupLipsItem1',
+    component: MakeupLipsItem1
+  },
+  {
+    path: '/MakeupLipsItem2',
+    name: 'MakeupLipsItem2',
+    component: MakeupLipsItem2
+  },
+  {
+    path: '/MakeupLipsItem3',
+    name: 'MakeupLipsItem3',
+    component: MakeupLipsItem3
+  },
+  {
+    path: '/MakeupLipsItem4',
+    name: 'MakeupLipsItem4',
+    component: MakeupLipsItem4
+  },
+  {
+    path: '/MakeupLipsItem5',
+    name: 'MakeupLipsItem5',
+    component: MakeupLipsItem5
+  },
+  {
+    path: '/MakeupLipsItem6',
+    name: 'MakeupLipsItem6',
+    component: MakeupLipsItem6
+  }
   
 ]
 
