@@ -19,52 +19,52 @@
 
             <ion-img :src="'/assets/homepage/2.jpg'"/>
             <p id="category">SKIN CARE <ion-img :src="'/assets/homepage/diamond.png'" style=" display: block; margin-left: auto; margin-right: auto; width: 30px; margin-top: 10px"/></p>
-            <p style="margin: 10px; font-size: 15px; font-family: MontserratR; color: white; text-align: center;">Level up your skin fascination with the exquisite beauty touch of the FTV Skincare line. 
+            <p style="margin: 10px; font-size: 14px; font-family: MontserratR; color: white; text-align: center;">Level up your skin fascination with the exquisite beauty touch of the FTV Skincare line. 
                     Designed with a unique and exclusive patented delivery system - Betoxynol-4™, to maximize the absorption of beneficial ingredients - giving an immediate, as well as long lasting, intense results into the skin. </p>
             <ion-grid>
                 <ion-row>
                     <ion-col style="text-align: center;">
-                        <ion-img :src="'/assets/MAKEUP CATEGORY/Face.jpg'" @click="() => router.push('/makeupfacelist')"/>
+                        <ion-img :src="'/assets/SKIN CARE CATEGORY/1.jpg'" @click="() => router.push('/skin24')"/>
                         <ion-card-content style="padding: 9px; background-color: black; color: white; font-size: 13px; border-style: solid; border-color: grey!important; border-width: 2px;">24 KARAT GOLDEN HERO SERIES</ion-card-content>
                     </ion-col>
                     <ion-col style="text-align: center;">
-                        <ion-img :src="'/assets/MAKEUP CATEGORY/Eyes.jpg'" @click="() => router.push('/makeupeyes')"/>
+                        <ion-img :src="'/assets/SKIN CARE CATEGORY/2.jpg'" @click="() => router.push('/skincheckmate')"/>
                         <ion-card-content style="padding: 9px; background-color: black; color: white; font-size: 13px; border-style: solid; border-color: grey!important; border-width: 2px;">CHECKMATE PINK PEARL SERIES</ion-card-content>
                     </ion-col>
                 </ion-row>
                 <ion-row>
                     <ion-col style="text-align: center;">
-                        <ion-img :src="'/assets/MAKEUP CATEGORY/Lips.jpg'" @click="() => router.push('/makeuplips')"/>
+                        <ion-img :src="'/assets/SKIN CARE CATEGORY/3.jpg'" @click="() => router.push('/skincrystal')"/>
                         <ion-card-content style="padding: 9px; background-color: black; color: white; font-size: 13px; border-style: solid; border-color: grey!important; border-width: 2px;">CRYSTAL - FUSION DECOLLIFTE SERIES</ion-card-content>
                     </ion-col> 
                     <ion-col style="text-align: center;">
-                        <ion-img :src="'/assets/MAKEUP CATEGORY/Brushes.jpg'" @click="() => router.push('/makeupbrush')"/>
+                        <ion-img :src="'/assets/SKIN CARE CATEGORY/4.jpg'" @click="() => router.push('/skinflash')"/>
                         <ion-card-content style="padding: 9px; background-color: black; color: white; font-size: 13px; border-style: solid; border-color: grey!important; border-width: 2px;">FLASH WHITE PEARL SERIES</ion-card-content>
                     </ion-col>
                 </ion-row>
                 <ion-row>
                     <ion-col style="text-align: center;">
-                        <ion-img :src="'/assets/MAKEUP CATEGORY/Face.jpg'" @click="() => router.push('/makeupfacelist')"/>
+                        <ion-img :src="'/assets/SKIN CARE CATEGORY/5.jpg'" @click="() => router.push('/skinfreshwater')"/>
                         <ion-card-content style="padding: 9px; background-color: black; color: white; font-size: 13px; border-style: solid; border-color: grey!important; border-width: 2px;">FRESHWATER PEARLS SERIES</ion-card-content>
                     </ion-col>
                     <ion-col style="text-align: center;">
-                        <ion-img :src="'/assets/MAKEUP CATEGORY/Eyes.jpg'" @click="() => router.push('/makeupeyes')"/>
+                        <ion-img :src="'/assets/SKIN CARE CATEGORY/6.jpg'" @click="() => router.push('/skinhyaluronic')"/>
                         <ion-card-content style="padding: 9px; background-color: black; color: white; font-size: 13px; border-style: solid; border-color: grey!important; border-width: 2px;">HYALURONIC FIRMING SERIES</ion-card-content>
                     </ion-col>
                 </ion-row>
                 <ion-row>
                     <ion-col style="text-align: center;">
-                        <ion-img :src="'/assets/MAKEUP CATEGORY/Face.jpg'" @click="() => router.push('/makeupfacelist')"/>
+                        <ion-img :src="'/assets/SKIN CARE CATEGORY/7.jpg'" @click="() => router.push('/skinluxuriant')"/>
                         <ion-card-content style="padding: 9px; background-color: black; color: white; font-size: 13px; border-style: solid; border-color: grey!important; border-width: 2px;">LUXURIANT CRYSTALS SERIES</ion-card-content>
                     </ion-col>
                     <ion-col style="text-align: center;">
-                        <ion-img :src="'/assets/MAKEUP CATEGORY/Eyes.jpg'" @click="() => router.push('/makeupeyes')"/>
+                        <ion-img :src="'/assets/SKIN CARE CATEGORY/8.jpg'" @click="() => router.push('/skinpeptide')"/>
                         <ion-card-content style="padding: 9px; background-color: black; color: white; font-size: 13px; border-style: solid; border-color: grey!important; border-width: 2px;">PEPTIDE EYE BLESSING SERIES</ion-card-content>
                     </ion-col>
                 </ion-row>
                 <ion-row>
                     <ion-col style="text-align: center;">
-                        <ion-img :src="'/assets/MAKEUP CATEGORY/Face.jpg'" @click="() => router.push('/makeupfacelist')"/>
+                        <ion-img :src="'/assets/SKIN CARE CATEGORY/9.jpg'" @click="() => router.push('/skinpackage')"/>
                         <ion-card-content style="padding: 9px; background-color: black; color: white; font-size: 13px; border-style: solid; border-color: grey!important; border-width: 2px;">SKINCARE PACKAGES</ion-card-content>
                     </ion-col>
                 </ion-row>
