@@ -2,9 +2,6 @@ import { createRouter, createWebHistory } from '@ionic/vue-router';
 import { RouteRecordRaw } from 'vue-router';
 import Home from '../views/Home.vue';
 import Makeup from '../views/Makeup.vue';
-import MakeupLips from '../views/MakeupLips.vue';
-import MakeupBrush from '../views/MakeupBrushes.vue';
-import MakeupEyes from '../views/MakeupEyes.vue';
 import Bodycare from '../views/Bodycare.vue';
 import Packages from '../views/Packages.vue';
 import Skincare from '../views/Skincare.vue';
@@ -72,6 +69,16 @@ import SkinLuxuriant from '../views/SkinLuxuriant/SkinLuxuriantList.vue';
 import SkinPackages from '../views/SkinPackages/SkinPackagesList.vue';
 import SkinPeptide from '../views/SkinPeptide/SkinPeptideList.vue';
 
+import BodyCareAllList from '../views/BodyCareAll/BodyCareAllList.vue';
+import MakeupBodyCareItem1 from '../views/BodyCareAll/Item1.vue';
+import MakeupBodyCareItem2 from '../views/BodyCareAll/Item2.vue';
+import MakeupBodyCareItem3 from '../views/BodyCareAll/Item3.vue';
+import MakeupBodyCareItem4 from '../views/BodyCareAll/Item4.vue';
+import MakeupBodyCareItem5 from '../views/BodyCareAll/Item5.vue';
+import MakeupBodyCareItem6 from '../views/BodyCareAll/Item6.vue';
+import MakeupBodyCareItem7 from '../views/BodyCareAll/Item7.vue';
+import MakeupBodyCareItem8 from '../views/BodyCareAll/Item8.vue';
+
 
 const routes: Array<RouteRecordRaw> = [
   {
@@ -92,21 +99,6 @@ const routes: Array<RouteRecordRaw> = [
     path: '/makeupfacelist',
     name: 'MakeupFaceList',
     component: MakeupFaceList
-  },
-  {
-    path: '/makeuplips',
-    name: 'Makeuplips',
-    component: MakeupLips
-  },
-  {
-    path: '/makeupbrush',
-    name: 'Makeupbrush',
-    component: MakeupBrush
-  },
-  {
-    path: '/makeupeyes',
-    name: 'Makeupeyes',
-    component: MakeupEyes
   },
   {
     path: '/bodycare',
@@ -413,6 +405,54 @@ const routes: Array<RouteRecordRaw> = [
     path: '/MakeupBrushesItem15',
     name: 'MakeupBrushesItem15',
     component: MakeupBrushesItem15
+  },
+
+
+  //BODY CARE
+  {
+    path: '/BodyCareAllList',
+    name: 'BodyCareAllList',
+    component: BodyCareAllList
+  },
+  {
+    path: '/MakeupBodyCareItem1',
+    name: 'MakeupBodyCareItem1',
+    component: MakeupBodyCareItem1
+  },
+  {
+    path: '/MakeupBodyCareItem2',
+    name: 'MakeupBodyCareItem2',
+    component: MakeupBodyCareItem2
+  },
+  {
+    path: '/MakeupBodyCareItem3',
+    name: 'MakeupBodyCareItem3',
+    component: MakeupBodyCareItem3
+  },
+  {
+    path: '/MakeupBodyCareItem4',
+    name: 'MakeupBodyCareItem4',
+    component: MakeupBodyCareItem4
+  },
+  {
+    path: '/MakeupBodyCareItem5',
+    name: 'MakeupBodyCareItem5',
+    component: MakeupBodyCareItem5
+  },
+  {
+    path: '/MakeupBodyCareItem6',
+    name: 'MakeupBodyCareItem6',
+    component: MakeupBodyCareItem6
+  },
+  {
+    path: '/MakeupBodyCareItem7',
+    name: 'MakeupBodyCareItem7',
+    component: MakeupBodyCareItem7
+  },
+  {
+    path: '/MakeupBodyCareItem8',
+    name: 'MakeupBodyCareItem8',
+    component: MakeupBodyCareItem8
   }
   
 ]
