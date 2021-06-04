@@ -43,7 +43,7 @@
                         <p style="font-family: BodoniR;">₱9,600</p>
                         <p style="font-size: 15px; font-family: MontserratR;">DETAILS</p>
                         <p style="padding-left: 10px; padding-right: 10px; font-size: 15px; font-family: MontserratR;">A skin complexion perfecting foundation, offers an optimal natural coverage with a beautiful finish for a trendy model – like look.</p>
-                        <iframe style="margin-top: 50px" width="400" height="400" src="https://www.youtube.com/embed/dPCUT80VFm4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <!-- <iframe style="margin-top: 50px" width="400" height="400" src="https://www.youtube.com/embed/dPCUT80VFm4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
                     </div>
                 </ion-col>
             </ion-row>

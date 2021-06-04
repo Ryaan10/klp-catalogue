@@ -43,7 +43,7 @@
                         <p style="font-family: BodoniR;">₱4,000</p>
                         <p style="font-size: 15px; font-family: MontserratR;">DETAILS</p>
                         <p style="padding-left: 10px; padding-right: 10px; font-size: 15px; font-family: MontserratR;">This lightweight powder is easy to apply. Can be applied on face as finishing and setting powder for a matte look and to balance the shine.</p>
-                        <iframe style="margin-top: 50px" width="400" height="400" src="https://www.youtube.com/embed/dPCUT80VFm4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <!-- <iframe style="margin-top: 50px" width="400" height="400" src="https://www.youtube.com/embed/dPCUT80VFm4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
                     </div>
                 </ion-col>
             </ion-row>

@@ -45,6 +45,23 @@ import MakeupLipsItem4 from '../views/MakeupLips/Item4.vue';
 import MakeupLipsItem5 from '../views/MakeupLips/Item5.vue';
 import MakeupLipsItem6 from '../views/MakeupLips/Item6.vue';
 
+import MakeupBrushesList from '../views/MakeupBrushes/MakeupBrushesList.vue';
+import MakeupBrushesItem1 from '../views/MakeupBrushes/Item1.vue';
+import MakeupBrushesItem2 from '../views/MakeupBrushes/Item2.vue';
+import MakeupBrushesItem3 from '../views/MakeupBrushes/Item3.vue';
+import MakeupBrushesItem4 from '../views/MakeupBrushes/Item4.vue';
+import MakeupBrushesItem5 from '../views/MakeupBrushes/Item5.vue';
+import MakeupBrushesItem6 from '../views/MakeupBrushes/Item6.vue';
+import MakeupBrushesItem7 from '../views/MakeupBrushes/Item7.vue';
+import MakeupBrushesItem8 from '../views/MakeupBrushes/Item8.vue';
+import MakeupBrushesItem9 from '../views/MakeupBrushes/Item9.vue';
+import MakeupBrushesItem10 from '../views/MakeupBrushes/Item10.vue';
+import MakeupBrushesItem11 from '../views/MakeupBrushes/Item11.vue';
+import MakeupBrushesItem12 from '../views/MakeupBrushes/Item12.vue';
+import MakeupBrushesItem13 from '../views/MakeupBrushes/Item13.vue';
+import MakeupBrushesItem14 from '../views/MakeupBrushes/Item14.vue';
+import MakeupBrushesItem15 from '../views/MakeupBrushes/Item15.vue';
+
 import Skin24Gold from '../views/Skin24Gold/Skin24GoldList.vue';
 import SkinCheckmate from '../views/SkinCheckmate/SkinCheckmateList.vue';
 import SkinCrystal from '../views/SkinCrystal/SkinCrystalList.vue';
@@ -315,6 +332,87 @@ const routes: Array<RouteRecordRaw> = [
     path: '/MakeupLipsItem6',
     name: 'MakeupLipsItem6',
     component: MakeupLipsItem6
+  },
+
+  {
+    path: '/makeupbrusheslist',
+    name: 'MakeupBrushesList',
+    component: MakeupBrushesList
+  },
+  {
+    path: '/MakeupBrushesItem1',
+    name: 'MakeupBrushesItem1',
+    component: MakeupBrushesItem1
+  },
+  {
+    path: '/MakeupBrushesItem2',
+    name: 'MakeupBrushesItem2',
+    component: MakeupBrushesItem2
+  },
+  {
+    path: '/MakeupBrushesItem3',
+    name: 'MakeupBrushesItem3',
+    component: MakeupBrushesItem3
+  },
+  {
+    path: '/MakeupBrushesItem4',
+    name: 'MakeupBrushesItem4',
+    component: MakeupBrushesItem4
+  },
+  {
+    path: '/MakeupBrushesItem5',
+    name: 'MakeupBrushesItem5',
+    component: MakeupBrushesItem5
+  },
+  {
+    path: '/MakeupBrushesItem6',
+    name: 'MakeupBrushesItem6',
+    component: MakeupBrushesItem6
+  },
+  {
+    path: '/MakeupBrushesItem7',
+    name: 'MakeupBrushesItem7',
+    component: MakeupBrushesItem7
+  },
+  {
+    path: '/MakeupBrushesItem8',
+    name: 'MakeupBrushesItem8',
+    component: MakeupBrushesItem8
+  },
+  {
+    path: '/MakeupBrushesItem9',
+    name: 'MakeupBrushesItem9',
+    component: MakeupBrushesItem9
+  },
+  {
+    path: '/MakeupBrushesItem10',
+    name: 'MakeupBrushesItem10',
+    component: MakeupBrushesItem10
+  },
+  {
+    path: '/MakeupBrushesItem11',
+    name: 'MakeupBrushesItem11',
+    component: MakeupBrushesItem11
+  },
+  {
+    path: '/MakeupBrushesItem12',
+    name: 'MakeupBrushesItem12',
+    component: MakeupBrushesItem12
+  },
+  {
+    path: '/MakeupBrushesItem13',
+    name: 'MakeupBrushesItem13',
+    component: MakeupBrushesItem13
+  },
+  {
+    path: '/MakeupBrushesItem14',
+    name: 'MakeupBrushesItem14',
+    component: MakeupBrushesItem14
+  },
+  {
+    path: '/MakeupBrushesItem15',
+    name: 'MakeupBrushesItem15',
+    component: MakeupBrushesItem15
   }
   
 ]
