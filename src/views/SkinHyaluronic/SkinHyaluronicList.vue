@@ -12,70 +12,32 @@
                 <ion-icon name="search-outline" style="color: white; font-size: 13px"></ion-icon>
                 <a style="color: white; margin-left: 3px; font-size: 13px; font-family: MontserratR; letter-spacing: 1px" @click="() => router.push('/home')">MAIN MENU</a> 
                 <ion-icon name="chevron-forward" style="color: white; margin-left: 3px; font-size: 13px"></ion-icon>
-                <a style="color: white; margin-left: 3px; font-size: 13px; font-family: MontserratR; letter-spacing: 1px" @click="() => router.push('/makeup')">MAKE UP</a>
+                <a style="color: white; margin-left: 3px; font-size: 13px; font-family: MontserratR; letter-spacing: 1px" @click="() => router.push('/skincare')">SKIN CARE</a>
                 <ion-icon name="chevron-forward" style="color: white; margin-left: 3px; font-size: 13px"></ion-icon>
-                <a style="color: white; margin-left: 3px; font-size: 13px; font-family: MontserratR; letter-spacing: 1px">FACE</a>
+                <a style="color: white; margin-left: 3px; font-size: 13px; font-family: MontserratR; letter-spacing: 1px">CHECKMATE PINK PEARL SERIES</a>
 
-                <ion-img :src="'/assets/homepage/backbutton.svg'" @click="() => router.push('/makeup')" style="width: 35px; float: right; right: 8px; position: absolute"/>
+                <ion-img :src="'/assets/homepage/backbutton.svg'" @click="() => router.push('/skincare')" style="width: 35px; float: right; right: 8px; position: absolute"/>
             </ion-list-header>
 
             <ion-grid>
                 <ion-row>
                     <ion-col style="text-align: center;">
-                        <ion-img :src="'/assets/MAKEUP CATEGORY/For eyes/SOLO SATIN EYE SHADOW_4800.jpg'" @click="() => router.push('/MakeupEyesItem1')"/>
-                        <ion-card-content style="padding: 9px; background-color: black; color: white; font-size: 13px; border-style: solid; border-color: grey!important; border-width: 2px;">SOLO SATIN EYE SHADOW<br>₱4,800</ion-card-content>
+                        <ion-img :src="'/assets/SKIN CARE CATEGORY/CHECKMATE PINK PEARL SERIES/CHECKMATE PINK PEARL FACIAL CREAM_7000.jpg'" @click="() => router.push('/skincheckmateItem1')"/>
+                        <ion-card-content style="padding: 9px; background-color: black; color: white; font-size: 13px; border-style: solid; border-color: grey!important; border-width: 2px;">CHECKMATE PINK PEARL FACIAL CREAM<br>₱7,000</ion-card-content>
                     </ion-col>
                     <ion-col style="text-align: center;">
-                        <ion-img :src="'/assets/MAKEUP CATEGORY/For eyes/MULTICOLOR EYE SHADOW_5500.jpg'" @click="() => router.push('/MakeupEyesItem2')"/>
-                        <ion-card-content style="padding: 9px; background-color: black; color: white; font-size: 13px; border-style: solid; border-color: grey!important; border-width: 2px;">MULTICOLOR EYE SHADOW<br>₱5,500</ion-card-content>
+                        <ion-img :src="'/assets/SKIN CARE CATEGORY/CHECKMATE PINK PEARL SERIES/CHECKMATE PINK PEARL FACIAL SERUM_14000.jpg'" @click="() => router.push('/skincheckmateItem2')"/>
+                        <ion-card-content style="padding: 9px; background-color: black; color: white; font-size: 13px; border-style: solid; border-color: grey!important; border-width: 2px;">CHECKMATE PINK PEARL FACIAL SERUM<br>₱14,000</ion-card-content>
                     </ion-col>
                 </ion-row>
                 <ion-row>
                     <ion-col style="text-align: center;">
-                        <ion-img :src="'/assets/MAKEUP CATEGORY/For eyes/MULTICOLOR EYE SHADOW (other available).jpg'" @click="() => router.push('/MakeupEyesItem3')"/>
-                        <ion-card-content style="padding: 9px; background-color: black; color: white; font-size: 13px; border-style: solid; border-color: grey!important; border-width: 2px;">MULTICOLOR EYE SHADOW<br>₱5,500</ion-card-content>
+                        <ion-img :src="'/assets/SKIN CARE CATEGORY/CHECKMATE PINK PEARL SERIES/CHECKMATE PINK PEARL PEELING GEL_7000.jpg'" @click="() => router.push('/skincheckmateItem3')"/>
+                        <ion-card-content style="padding: 9px; background-color: black; color: white; font-size: 13px; border-style: solid; border-color: grey!important; border-width: 2px;">CHECKMATE PINK PEARL PEELING GEL<br>₱7,000</ion-card-content>
                     </ion-col> 
                     <ion-col style="text-align: center;">
-                        <ion-img :src="'/assets/MAKEUP CATEGORY/For eyes/FLOWER PALETTE_8800.jpg'" @click="() => router.push('/MakeupEyesItem4')"/>
-                        <ion-card-content style="padding: 9px; background-color: black; color: white; font-size: 13px; border-style: solid; border-color: grey!important; border-width: 2px;">FLOWER PALETTE<br>₱8,800</ion-card-content>
-                    </ion-col>
-                </ion-row>
-                <ion-row>
-                    <ion-col style="text-align: center;">
-                        <ion-img :src="'/assets/MAKEUP CATEGORY/For eyes/TRIANGLE PALLETTE_8800.jpg'" @click="() => router.push('/MakeupEyesItem5')"/>
-                        <ion-card-content style="padding: 9px; background-color: black; color: white; font-size: 13px; border-style: solid; border-color: grey!important; border-width: 2px;">TRIANGLE PALLETTE<br>₱8,800</ion-card-content>
-                    </ion-col>
-                    <ion-col style="text-align: center;">
-                        <ion-img :src="'/assets/MAKEUP CATEGORY/For eyes/BUBBLE PALLETTE_8800.jpg'" @click="() => router.push('/MakeupEyesItem6')"/>
-                        <ion-card-content style="padding: 9px; background-color: black; color: white; font-size: 13px; border-style: solid; border-color: grey!important; border-width: 2px;">BUBBLE PALLETTE<br>₱8,800</ion-card-content>
-                    </ion-col>
-                </ion-row>
-                <ion-row>
-                    <ion-col style="text-align: center;">
-                        <ion-img :src="'/assets/MAKEUP CATEGORY/For eyes/SHINING LOOSE EYE SHADOW_6000.jpg'" @click="() => router.push('/MakeupEyesItem7')"/>
-                        <ion-card-content style="padding: 9px; background-color: black; color: white; font-size: 13px; border-style: solid; border-color: grey!important; border-width: 2px;">SHINING LOOSE EYE SHADOW<br>₱6,000</ion-card-content>
-                    </ion-col> 
-                    <ion-col style="text-align: center;">
-                        <ion-img :src="'/assets/MAKEUP CATEGORY/For eyes/EYE PENCIL_3500.jpg'" @click="() => router.push('/MakeupEyesItem8')"/>
-                        <ion-card-content style="padding: 9px; background-color: black; color: white; font-size: 13px; border-style: solid; border-color: grey!important; border-width: 2px;">EYE PENCIL<br>₱3,500</ion-card-content>
-                    </ion-col>
-                </ion-row>
-                <ion-row>
-                    <ion-col style="text-align: center;">
-                        <ion-img :src="'/assets/MAKEUP CATEGORY/For eyes/EYE LINER_5500.jpg'" @click="() => router.push('/MakeupEyesItem9')"/>
-                        <ion-card-content style="padding: 9px; background-color: black; color: white; font-size: 13px; border-style: solid; border-color: grey!important; border-width: 2px;">EYE LINER<br>₱5,500</ion-card-content>
-                    </ion-col>
-                    <ion-col style="text-align: center;">
-                        <ion-img :src="'/assets/MAKEUP CATEGORY/For eyes/VOLUME MASCARA_6000.jpg'" @click="() => router.push('/MakeupEyesItem10')"/>
-                        <ion-card-content style="padding: 9px; background-color: black; color: white; font-size: 13px; border-style: solid; border-color: grey!important; border-width: 2px;">VOLUME MASCARA<br>₱6,000</ion-card-content>
-                    </ion-col>
-                </ion-row>
-                <ion-row>
-                    <ion-col style="text-align: center;">
-                        <ion-img :src="'/assets/MAKEUP CATEGORY/For eyes/LONG LASH MASCARA SILICONE BLACK_6000.jpg'" @click="() => router.push('/MakeupEyesItem11')"/>
-                        <ion-card-content style="padding: 9px; background-color: black; color: white; font-size: 13px; border-style: solid; border-color: grey!important; border-width: 2px;">LONG LASH MASCARA SILICONE BLACK<br>₱6,000</ion-card-content>
-                    </ion-col>
-                    <ion-col style="text-align: center;">
+                        <ion-img :src="'/assets/SKIN CARE CATEGORY/CHECKMATE PINK PEARL SERIES/CHECKMATE PINK PEARL SPOT GEL_7000.jpg'" @click="() => router.push('/skincheckmateItem4')"/>
+                        <ion-card-content style="padding: 9px; background-color: black; color: white; font-size: 13px; border-style: solid; border-color: grey!important; border-width: 2px;">CHECKMATE PINK PEARL SPOT GEL<br>₱7,000</ion-card-content>
                     </ion-col>
                 </ion-row>
             </ion-grid>
