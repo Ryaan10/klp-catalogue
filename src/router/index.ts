@@ -24,6 +24,19 @@ import MakeupFaceItem11 from '../views/MakeupFace/Item11.vue';
 import MakeupFaceItem12 from '../views/MakeupFace/Item12.vue';
 import MakeupFaceItem13 from '../views/MakeupFace/Item13.vue';
 
+import MakeupEyesList from '../views/MakeupEyes/MakeupEyesList.vue';
+import MakeupEyesItem1 from '../views/MakeupEyes/Item1.vue';
+import MakeupEyesItem2 from '../views/MakeupEyes/Item2.vue';
+import MakeupEyesItem3 from '../views/MakeupEyes/Item3.vue';
+import MakeupEyesItem4 from '../views/MakeupEyes/Item4.vue';
+import MakeupEyesItem5 from '../views/MakeupEyes/Item5.vue';
+import MakeupEyesItem6 from '../views/MakeupEyes/Item6.vue';
+import MakeupEyesItem7 from '../views/MakeupEyes/Item7.vue';
+import MakeupEyesItem8 from '../views/MakeupEyes/Item8.vue';
+import MakeupEyesItem9 from '../views/MakeupEyes/Item9.vue';
+import MakeupEyesItem10 from '../views/MakeupEyes/Item10.vue';
+import MakeupEyesItem11 from '../views/MakeupEyes/Item11.vue';
+
 const routes: Array<RouteRecordRaw> = [
   {
     path: '/',
@@ -139,6 +152,66 @@ const routes: Array<RouteRecordRaw> = [
     name: 'skincare',
     component: Skincare
   },
+  {
+    path: '/makeupeyeslist',
+    name: 'MakeupEyesList',
+    component: MakeupEyesList
+  },
+  {
+    path: '/MakeupEyesItem1',
+    name: 'MakeupEyesItem1',
+    component: MakeupEyesItem1
+  },
+  {
+    path: '/MakeupEyesItem2',
+    name: 'MakeupEyesItem2',
+    component: MakeupEyesItem2
+  },
+  {
+    path: '/MakeupEyesItem3',
+    name: 'MakeupEyesItem3',
+    component: MakeupEyesItem3
+  },
+  {
+    path: '/MakeupEyesItem4',
+    name: 'MakeupEyesItem4',
+    component: MakeupEyesItem4
+  },
+  {
+    path: '/MakeupEyesItem5',
+    name: 'MakeupEyesItem5',
+    component: MakeupEyesItem5
+  },
+  {
+    path: '/MakeupEyesItem6',
+    name: 'MakeupEyesItem6',
+    component: MakeupEyesItem6
+  },
+  {
+    path: '/MakeupEyesItem7',
+    name: 'MakeupEyesItem7',
+    component: MakeupEyesItem7
+  },
+  {
+    path: '/MakeupEyesItem8',
+    name: 'MakeupEyesItem8',
+    component: MakeupEyesItem8
+  },
+  {
+    path: '/MakeupEyesItem9',
+    name: 'MakeupEyesItem9',
+    component: MakeupEyesItem9
+  },
+  {
+    path: '/MakeupEyesItem10',
+    name: 'MakeupEyesItem10',
+    component: MakeupEyesItem10
+  },
+  {
+    path: '/MakeupEyesItem11',
+    name: 'MakeupEyesItem11',
+    component: MakeupEyesItem11
+  }
 ]
 
 const router = createRouter({
