@@ -24,7 +24,7 @@
             <ion-grid>
                 <ion-row>
                     <ion-col style="text-align: center;">
-                        <ion-img :src="'/assets/SKIN CARE CATEGORY/1.jpg'" @click="() => router.push('/skin24')"/>
+                        <ion-img :src="'/assets/SKIN CARE CATEGORY/1.jpg'" @click="() => router.push('/skin24gold')"/>
                         <ion-card-content style="padding: 9px; background-color: black; color: white; font-size: 13px; border-style: solid; border-color: grey!important; border-width: 2px;">24 KARAT GOLDEN HERO SERIES</ion-card-content>
                     </ion-col>
                     <ion-col style="text-align: center;">
@@ -38,7 +38,7 @@
                         <ion-card-content style="padding: 9px; background-color: black; color: white; font-size: 13px; border-style: solid; border-color: grey!important; border-width: 2px;">CRYSTAL - FUSION DECOLLIFTE SERIES</ion-card-content>
                     </ion-col> 
                     <ion-col style="text-align: center;">
-                        <ion-img :src="'/assets/SKIN CARE CATEGORY/4.jpg'" @click="() => router.push('/skinflash')"/>
+                        <ion-img :src="'/assets/SKIN CARE CATEGORY/4.jpg'" @click="() => router.push('/skinflashwhite')"/>
                         <ion-card-content style="padding: 9px; background-color: black; color: white; font-size: 13px; border-style: solid; border-color: grey!important; border-width: 2px;">FLASH WHITE PEARL SERIES</ion-card-content>
                     </ion-col>
                 </ion-row>
@@ -64,7 +64,7 @@
                 </ion-row>
                 <ion-row>
                     <ion-col style="text-align: center;">
-                        <ion-img :src="'/assets/SKIN CARE CATEGORY/9.jpg'" @click="() => router.push('/skinpackage')"/>
+                        <ion-img :src="'/assets/SKIN CARE CATEGORY/9.jpg'" @click="() => router.push('/skinpackages')"/>
                         <ion-card-content style="padding: 9px; background-color: black; color: white; font-size: 13px; border-style: solid; border-color: grey!important; border-width: 2px;">SKINCARE PACKAGES</ion-card-content>
                     </ion-col>
                 </ion-row>

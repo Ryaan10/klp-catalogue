@@ -37,6 +37,17 @@ import MakeupEyesItem9 from '../views/MakeupEyes/Item9.vue';
 import MakeupEyesItem10 from '../views/MakeupEyes/Item10.vue';
 import MakeupEyesItem11 from '../views/MakeupEyes/Item11.vue';
 
+import Skin24Gold from '../views/Skin24Gold/Skin24GoldList.vue';
+import SkinCheckmate from '../views/SkinCheckmate/SkinCheckmateList.vue';
+import SkinCrystal from '../views/SkinCrystal/SkinCrystalList.vue';
+import SkinFlashwhite from '../views/SkinFlashwhite/SkinFlashwhiteList.vue';
+import SkinFreshwater from '../views/SkinFreshwater/SkinFreshwaterList.vue';
+import SkinHyaluronic from '../views/SkinHyaluronic/SkinHyaluronicList.vue';
+import SkinLuxuriant from '../views/SkinLuxuriant/SkinLuxuriantList.vue';
+import SkinPackages from '../views/SkinPackages/SkinPackagesList.vue';
+import SkinPeptide from '../views/SkinPeptide/SkinPeptideList.vue';
+
+
 const routes: Array<RouteRecordRaw> = [
   {
     path: '/',
@@ -148,11 +159,6 @@ const routes: Array<RouteRecordRaw> = [
     component: MakeupFaceItem13
   },
   {
-    path: '/skincare',
-    name: 'skincare',
-    component: Skincare
-  },
-  {
     path: '/makeupeyeslist',
     name: 'MakeupEyesList',
     component: MakeupEyesList
@@ -211,7 +217,60 @@ const routes: Array<RouteRecordRaw> = [
     path: '/MakeupEyesItem11',
     name: 'MakeupEyesItem11',
     component: MakeupEyesItem11
-  }
+  },
+
+  // SKIN CARE ROUTE
+  {
+    path: '/skincare',
+    name: 'skincare',
+    component: Skincare
+  },
+  {
+    path: '/skin24gold',
+    name: 'skin24gold',
+    component: Skin24Gold
+  },
+  {
+    path: '/skincheckmate',
+    name: 'skincheckmate',
+    component: SkinCheckmate
+  },
+  {
+    path: '/skincrystal',
+    name: 'skincrystal',
+    component: SkinCrystal
+  },
+  {
+    path: '/skinflashwhite',
+    name: 'skinflashwhite',
+    component: SkinFlashwhite
+  },
+  {
+    path: '/skinfreshwater',
+    name: 'skinfreshwater',
+    component: SkinFreshwater
+  },
+  {
+    path: '/skinhyaluronic',
+    name: 'skinhyaluronic',
+    component: SkinHyaluronic
+  },
+  {
+    path: '/skinluxuriant',
+    name: 'skinluxuriant',
+    component: SkinLuxuriant
+  },
+  {
+    path: '/skinpeptide',
+    name: 'skinpeptide',
+    component: SkinPeptide
+  },
+  {
+    path: '/skinpackages',
+    name: 'skinpackages',
+    component: SkinPackages
+  },
+  
 ]
 
 const router = createRouter({
