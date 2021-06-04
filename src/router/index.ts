@@ -344,7 +344,7 @@ const routes: Array<RouteRecordRaw> = [
         {
           path: '/skincheckmateItem4',
           name: 'skincheckmateItem4',
-          component: Skin24Gold
+          component: SkinCheckmateItem4
         },
   {
     path: '/skincrystal',
