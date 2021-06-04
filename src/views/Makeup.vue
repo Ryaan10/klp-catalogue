@@ -14,7 +14,7 @@
                 <ion-icon name="chevron-forward" style="color: white; margin-left: 3px; font-size: 13px"></ion-icon>
                 <a style="color: white; margin-left: 3px; font-size: 13px; font-family: MontserratR; letter-spacing: 1px">MAKE UP</a>
 
-                <ion-img :src="'/assets/homepage/backbutton.svg'" @click="() => router.push('/home')" style="width: 25px; float: right; right: 0; position: absolute"/>
+                <ion-img :src="'/assets/homepage/backbutton.svg'" @click="() => router.push('/home')" style="width: 35px; float: right; right: 8px; position: absolute"/>
             </ion-list-header>
 
             <ion-img :src="'/assets/homepage/1.jpg'"/>
