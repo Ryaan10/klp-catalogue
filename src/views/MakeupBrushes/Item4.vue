@@ -22,7 +22,7 @@
             <ion-icon name="chevron-forward" style="color: white; margin-left: 3px; font-size: 13px"></ion-icon>
             <a style="color: white; margin-left: 3px; font-size: 13px; font-family: MontserratR; letter-spacing: 1px" @click="() => router.push('/makeup')">MAKE UP</a> 
             <ion-icon name="chevron-forward" style="color: white; margin-left: 3px; font-size: 13px"></ion-icon>
-            <a style="color: white; margin-left: 3px; font-size: 13px; font-family: MontserratR; letter-spacing: 1px" @click="() => router.push('/makeupeyeslist')">EYES</a> 
+            <a style="color: white; margin-left: 3px; font-size: 13px; font-family: MontserratR; letter-spacing: 1px" @click="() => router.push('/makeupbrusheslist')">BRUSHES</a> 
 
             <ion-img :src="'/assets/homepage/backbutton.svg'" @click="backToList()"  style="width: 35px; float: right; right: 8px; position: absolute"/>
         </ion-list-header>
@@ -32,24 +32,22 @@
                     <!-- <ion-icon name="chevron-back" style="color: white; margin-left: 3px; font-size: 28px; margin-top: 180px; position: absolute; left: 0; z-index: 100" @click="prevSlide"></ion-icon>
                     <ion-icon name="chevron-forward" style="color: white; margin-left: 3px; font-size: 28px; margin-top: 180px; position: absolute; right: 0; z-index: 100" @click="nextSlide"></ion-icon> -->
                     <div style="text-align: center; margin-top: 10px; color: white; z-index: -1">
-                        <p style="font-family: MontserratR;">SHINING LOOSE EYE SHADOW</p>
+                        <p style="font-family: MontserratR;">FTV BRUSH NO.3 - FOUNDATION</p>
                         <ion-slides pager="false" :options="slideOpts" ref="mySlides">
                             <ion-slide>
                                 <div>
-                                    <ion-img :src="'/assets/MAKEUP CATEGORY/For eyes/SHINING LOOSE EYE SHADOW_6000.jpg'" id="product" style="margin-top: 15px; margin-bottom: 15px; height: 300px;"/>
+                                    <ion-img :src="'/assets/MAKEUP CATEGORY/Brushes/FTV BRUSH NO. 3_53.jpg'" id="product" style="margin-top: 15px; margin-bottom: 15px; height: 300px;"/>
                                 </div>
                             </ion-slide>
                         </ion-slides>  
-                        <p style="font-family: BodoniR;">₱6,000</p>
+                        <p style="font-family: BodoniR;">₱5,100</p>
                         <p style="font-size: 15px; font-family: MontserratR;">DETAILS</p>
-                        <p style="padding-left: 10px; padding-right: 10px; font-size: 15px; font-family: MontserratR;">This lightweight, silky textured loose powder can be applied on face, eyes, and body to create a shimmering effect.</p>
+                        <p style="padding-left: 10px; padding-right: 10px; font-size: 15px; font-family: MontserratR;">This brush allows perfectly smooth and even application of liquid and cream foundations.</p>
                         <!-- <iframe style="margin-top: 50px" width="400" height="400" src="https://www.youtube.com/embed/dPCUT80VFm4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
                     </div>
                 </ion-col>
             </ion-row>
         </ion-grid>
-        
-     
     
        </div>
       </ion-content>
@@ -57,7 +55,7 @@
 </template>
 <script lang="ts">
 import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar, IonSlides, IonSlide } from '@ionic/vue';
-import { defineComponent } from 'vue';
+import { defineComponent, onMounted, ref } from 'vue';
 import { useRouter } from 'vue-router';
 
 export default defineComponent({
@@ -73,23 +71,38 @@ export default defineComponent({
     },
     setup() {
         const router = useRouter(); 
+
+        const mySlides = ref<any>(null)
+
         const slideOpts = {
             initialSlide: 0,
             speed: 400,
         };        
-        return { router, slideOpts };
+
+        onMounted(() => {
+            console.log(mySlides)
+        })
+
+        const nextSlide = async () =>{
+            const s = await mySlides?.value?.$el.getSwiper()
+            await s.slideNext();
+        }
+
+        const prevSlide = async () =>{
+            const s = await mySlides?.value?.$el.getSwiper()
+            await s.slidePrev();
+        }
+
+
+        return { router, slideOpts, mySlides, prevSlide, nextSlide };
     },
 
     methods:{
         backToList() {
-            this.$router.push({name: "MakeupEyesList"})
+            this.$router.push({name: "MakeupBrushesList"})
         },
     }
     
-
-
-
-
 
 });
 </script>
@@ -125,6 +138,5 @@ export default defineComponent({
         image-rendering: auto;
         image-rendering: crisp-edges;
         image-rendering: pixelated;
-    }
-    
+    }    
 </style>

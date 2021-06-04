@@ -23,7 +23,7 @@
                 <ion-row>
                     <ion-col style="text-align: center;">
                         <ion-img :src="'/assets/MAKEUP CATEGORY/For face/21.jpg'" @click="() => router.push('/MakeupFaceItem1')"/>
-                        <ion-card-content style="padding: 9px; background-color: black; color: white; font-size: 13px; border-style: solid; border-color: grey!important; border-width: 2px;">Bronzer Mosaico<br>₱9,600</ion-card-content>
+                        <ion-card-content style="padding: 9px; background-color: black; color: white; font-size: 13px; border-style: solid; border-color: grey!important; border-width: 2px;">Bronzer Mosaico<br><br>₱9,600</ion-card-content>
                     </ion-col>
                     <ion-col style="text-align: center;">
                         <ion-img :src="'/assets/MAKEUP CATEGORY/For face/22.jpg'" @click="() => router.push('/MakeupFaceItem2')"/>

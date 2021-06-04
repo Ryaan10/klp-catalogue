@@ -37,7 +37,7 @@
                         <ion-card-content style="padding: 9px; background-color: black; color: white; font-size: 13px; border-style: solid; border-color: grey!important; border-width: 2px;">Lips</ion-card-content>
                     </ion-col> 
                     <ion-col style="text-align: center;">
-                        <ion-img :src="'/assets/MAKEUP CATEGORY/Brushes.jpg'" @click="() => router.push('/makeupbrush')"/>
+                        <ion-img :src="'/assets/MAKEUP CATEGORY/Brushes.jpg'" @click="() => router.push('/makeupbrusheslist')"/>
                         <ion-card-content style="padding: 9px; background-color: black; color: white; font-size: 13px; border-style: solid; border-color: grey!important; border-width: 2px;">Brushes</ion-card-content>
                     </ion-col>
                 </ion-row>
