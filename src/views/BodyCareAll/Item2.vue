@@ -32,19 +32,21 @@
                     <!-- <ion-icon name="chevron-back" style="color: white; margin-left: 3px; font-size: 28px; margin-top: 180px; position: absolute; left: 0; z-index: 100" @click="prevSlide"></ion-icon>
                     <ion-icon name="chevron-forward" style="color: white; margin-left: 3px; font-size: 28px; margin-top: 180px; position: absolute; right: 0; z-index: 100" @click="nextSlide"></ion-icon> -->
                     <div style="text-align: center; margin-top: 10px; color: white; z-index: -1">
-                        <p style="font-family: MontserratR;">BODY BUTTER SET - ELBOWS BUTTER BAR/ FOOT & HEEL BUTTER BAR</p>
+                        <p style="font-family: MontserratR;">SUPER MODEL DAILY STAR FOOT BUTTER</p>
                         <ion-slides pager="false" :options="slideOpts" ref="mySlides">
                             <ion-slide>
                                 <div>
-                                    <ion-img :src="'/assets/BODY CARE CATEGORY/All Products/BODY BUTTER SET - ELBOWS BUTTER BAR or FOOT & HEEL BUTTER BAR_7900.png'" id="product" style="margin-top: 15px; margin-bottom: 15px; height: 300px;"/>
+                                    <ion-img :src="'/assets/BODY CARE CATEGORY/All Products/SUPER MODEL DAILY STAR FOOT BUTTER_3200.jpg'" id="product" style="margin-top: 15px; margin-bottom: 15px; height: 300px;"/>
                                 </div>
                             </ion-slide>
                         </ion-slides>  
-                         <p style="font-size: 15px; font-family: MontserratR;">DETAILS</p>
-                        <p style="padding-left: 10px; padding-right: 10px; font-size: 15px; font-family: MontserratR;">These beautifully scented solid butter bars melt at body temperature to eliminate any dryness. A real treat for an addictive pleasure.</p>
+                        <p style="font-family: BodoniR;">₱3,200</p>
+                        <p style="font-size: 15px; font-family: MontserratR;">DETAILS</p>
+                        <p style="padding-left: 10px; padding-right: 10px; font-size: 15px; font-family: MontserratR;">This rich creamy foot delight is designed to moisturize your feet and keep them feeling re-energized and refreshed.</p>
 
                          <p style="font-size: 15px; font-family: MontserratR;">HOW TO USE</p>
-                        <p style="padding-left: 10px; padding-right: 10px; font-size: 15px; font-family: MontserratR;">ELBOWS BUTTER BAR For best results and to seal in the moisture, apply after the shower to towel-dried skin. Glide the bar over dry elbows and gently massage the skin with your hands until the butter is fully absorbed. Indulge daily. FOOT & HEEL BUTTER BAR For best results and to improve skin elasticity, apply after the shower to towel-dried skin. Glide the bar over dry feet and heels and gently massage the skin with your hands until the butter is fully absorbed. The more you massage the better is the result. Indulge daily.</p><!-- <iframe style="margin-top: 50px" width="400" height="400" src="https://www.youtube.com/embed/dPCUT80VFm4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+                        <p style="padding-left: 10px; padding-right: 10px; font-size: 15px; font-family: MontserratR;">Massage a small dollop onto dry and clean feet and allow the buttery cream to be completely absorbed. Use as often as desired.</p>
+                        <!-- <iframe style="margin-top: 50px" width="400" height="400" src="https://www.youtube.com/embed/dPCUT80VFm4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
                     </div>
                 </ion-col>
             </ion-row>

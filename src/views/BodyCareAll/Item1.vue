@@ -40,7 +40,8 @@
                                 </div>
                             </ion-slide>
                         </ion-slides>  
-                         <p style="font-size: 15px; font-family: MontserratR;">DETAILS</p>
+                        <p style="font-family: BodoniR;">₱7,900</p>
+                        <p style="font-size: 15px; font-family: MontserratR;">DETAILS</p>
                         <p style="padding-left: 10px; padding-right: 10px; font-size: 15px; font-family: MontserratR;">These beautifully scented solid butter bars melt at body temperature to eliminate any dryness. A real treat for an addictive pleasure.</p>
 
                          <p style="font-size: 15px; font-family: MontserratR;">HOW TO USE</p>
