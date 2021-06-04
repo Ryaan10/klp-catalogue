@@ -26,21 +26,30 @@
 
             <ion-img :src="'/assets/homepage/backbutton.svg'" @click="backToList()"  style="width: 35px; float: right; right: 8px; position: absolute"/>
         </ion-list-header>
-        
-        <div style="text-align: center; margin-top: 10px; color: white">
-            <ion-slides pager="false" :options="slideOpts">
-                <ion-slide>
-                    <div>
+        <ion-grid>
+            <ion-row style="color: white">
+                <ion-col>
+                    <!-- <ion-icon name="chevron-back" style="color: white; margin-left: 3px; font-size: 28px; margin-top: 180px; position: absolute; left: 0; z-index: 100" @click="prevSlide"></ion-icon>
+                    <ion-icon name="chevron-forward" style="color: white; margin-left: 3px; font-size: 28px; margin-top: 180px; position: absolute; right: 0; z-index: 100" @click="nextSlide"></ion-icon> -->
+                    <div style="text-align: center; margin-top: 10px; color: white; z-index: -1">
                         <p style="font-family: MontserratR;">FTV PERFECT SELFIE LIQUID FOUNDATION MATTE</p>
-                        <ion-img :src="'/assets/MAKEUP CATEGORY/For face/25.jpg'" id="product" style="margin-top: 15px; margin-bottom: 15px; height: 300px"/>
+                        <ion-slides pager="false" :options="slideOpts" ref="mySlides">
+                            <ion-slide>
+                                <div>
+                                    <ion-img :src="'/assets/MAKEUP CATEGORY/For face/25.jpg'" id="product" style="margin-top: 15px; margin-bottom: 15px; height: 300px;"/>
+                                </div>
+                            </ion-slide>
+                        </ion-slides>  
                         <p style="font-family: BodoniR;">₱9,600</p>
                         <p style="font-size: 15px; font-family: MontserratR;">DETAILS</p>
                         <p style="padding-left: 10px; padding-right: 10px; font-size: 15px; font-family: MontserratR;">A skin complexion perfecting foundation, offers an optimal natural coverage with a beautiful finish for a trendy model – like look.</p>
                         <iframe style="margin-top: 50px" width="400" height="400" src="https://www.youtube.com/embed/dPCUT80VFm4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </div>
-                </ion-slide>
-            </ion-slides>  
-        </div>
+                </ion-col>
+            </ion-row>
+        </ion-grid>
+        
+       
     
        </div>
       </ion-content>
