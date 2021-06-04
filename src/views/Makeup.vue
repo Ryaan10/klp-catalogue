@@ -18,7 +18,7 @@
             </ion-list-header>
 
             <ion-img :src="'/assets/homepage/1.jpg'"/>
-            <p id="category">MAKE UP <ion-img :src="'/assets/homepage/diamond.png'" style=" display: block; margin-left: auto; margin-right: auto; width: 30px; margin-top: 10px"/></p>
+            <p id="category">MAKE UP <ion-img :src="'/assets/homepage/diamond.jpg'" style=" display: block; margin-left: auto; margin-right: auto; width: 30px; margin-top: 10px"/></p>
             <p style="margin: 10px; font-size: 14px; font-family: MontserratR; color: white; text-align: center;">Look Drop-Dead-Gorgeous with FTV Makeup that caters to all your tastes and desires. Infused with fusion blends, extracts, oils and other skin beneficial ingredients to put its fashionable spell on you the moment you try it.</p>
             <ion-grid>
                 <ion-row>

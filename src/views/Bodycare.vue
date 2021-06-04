@@ -18,7 +18,7 @@
             </ion-list-header>
 
             <ion-img :src="'/assets/homepage/3.jpg'"/>
-            <p id="category">BODY CARE<ion-img :src="'/assets/homepage/diamond.png'" style=" display: block; margin-left: auto; margin-right: auto; width: 30px; margin-top: 10px"/></p>
+            <p id="category">BODY CARE<ion-img :src="'/assets/homepage/diamond.jpg'" style=" display: block; margin-left: auto; margin-right: auto; width: 30px; margin-top: 10px"/></p>
             <p style="margin: 10px; font-size: 14px; font-family: MontserratR; color: white; text-align: center;">Strike a pose as you reveal your glowing skin with the FTV Bodycare line. This offers a wide range of products to make your skin feel pampered from head to toe while giving that overall glow up into your skin..</p>
             <ion-grid>
                 <ion-row>
@@ -27,7 +27,7 @@
                         <ion-card-content style="padding: 9px; background-color: black; color: white; font-size: 13px; border-style: solid; border-color: grey!important; border-width: 2px;">ALL PRODUCTS</ion-card-content>
                     </ion-col>
                     <ion-col style="text-align: center;">
-                        <ion-img :src="'/assets/BODY CARE CATEGORY/2.png'" @click="() => router.push('/makeupeyeslist')"/>
+                        <ion-img :src="'/assets/BODY CARE CATEGORY/2.jpg'" @click="() => router.push('/makeupeyeslist')"/>
                         <ion-card-content style="padding: 9px; background-color: black; color: white; font-size: 13px; border-style: solid; border-color: grey!important; border-width: 2px;">MEN</ion-card-content>
                     </ion-col>
                 </ion-row>
