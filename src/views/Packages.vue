@@ -18,7 +18,7 @@
             </ion-list-header>
 
             <ion-img :src="'/assets/homepage/6.jpg'"/>
-            <p id="category">PACKAGES AND MEMBERSHIP <ion-img :src="'/assets/homepage/diamond.png'" style=" display: block; margin-left: auto; margin-right: auto; width: 30px; margin-top: 10px"/></p>
+            <p id="category">PACKAGES AND MEMBERSHIP <ion-img :src="'/assets/homepage/diamond.jpg'" style=" display: block; margin-left: auto; margin-right: auto; width: 30px; margin-top: 10px"/></p>
             
             <ion-grid>
                 <ion-row>
