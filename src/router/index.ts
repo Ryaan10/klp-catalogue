@@ -103,7 +103,6 @@ import SkinLuxuriantItem2 from '../views/SkinLuxuriant/SkinLuxuriantItem2.vue';
 import SkinLuxuriantItem3 from '../views/SkinLuxuriant/SkinLuxuriantItem3.vue';
 import SkinLuxuriantItem4 from '../views/SkinLuxuriant/SkinLuxuriantItem4.vue';
 import SkinLuxuriantItem5 from '../views/SkinLuxuriant/SkinLuxuriantItem5.vue';
-import SkinLuxuriantItem6 from '../views/SkinLuxuriant/SkinLuxuriantItem6.vue';
 
 import SkinPackages from '../views/SkinPackages/SkinPackagesList.vue';
 import SkinPackagesItem1 from '../views/SkinPackages/SkinPackagesItem1.vue';
@@ -489,11 +488,6 @@ const routes: Array<RouteRecordRaw> = [
           path: '/skinluxuriantItem5',
           name: 'skinluxuriantItem5',
           component: SkinLuxuriantItem5
-        },
-        {
-          path: '/skinluxuriantItem6',
-          name: 'skinluxuriantItem6',
-          component: SkinLuxuriantItem6
         },
   {
     path: '/skinpeptide',
