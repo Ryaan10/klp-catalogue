@@ -25,20 +25,20 @@
             <ion-row style="color: white">
                 <ion-col>
                     <div style="text-align: center; margin-top: 10px; color: white; z-index: -1">
-                        <p style="font-family: MontserratR;">LUXURIANT CRYSTALS CREAMY FACIAL SOAPR</p>
+                        <p style="font-family: MontserratR;">LUXURIANT CRYSTALS HYDRA FOUNTAIN CAPSULES</p>
                         <ion-slides pager="false" :options="slideOpts" ref="mySlides">
                             <ion-slide>
                                 <div>
-                                    <ion-img :src="'/assets/SKIN CARE CATEGORY/LUXURIANT CRYSTALS SERIES/LUXURIANT CRYSTALS CREAMY FACIAL SOAP_7000.jpg'" id="product" style="margin-top: 15px; margin-bottom: 15px; height: 300px;"/>
+                                    <ion-img :src="'/assets/SKIN CARE CATEGORY/LUXURIANT CRYSTALS SERIES/LUXURIANT CRYSTALS HYDRA FOUNTAIN CAPSULES_50000.jpg'" id="product" style="margin-top: 15px; margin-bottom: 15px; height: 300px;"/>
                                 </div>
                             </ion-slide>
                         </ion-slides>  
-                        <p style="font-family: BodoniR;">₱7,000</p>
+                        <p style="font-family: BodoniR;">₱50,000</p>
                         <p style="font-size: 15px; font-family: MontserratR;">DETAILS</p>
-                        <p style="padding-left: 10px; padding-right: 10px; font-size: 15px; font-family: MontserratR;">This ultra-hydrating Facial Soap cleanses, boosts with hydration and soothes the skin with green tea extract, cucumber and Aloe Vera.</p>
+                        <p style="padding-left: 10px; padding-right: 10px; font-size: 15px; font-family: MontserratR;">This revitalizing nightly serum nourishes the skin with a rich blend of polymeric oils, improves elasticity and extensively repairs the skin during the night when the skin is most receptive.</p>
                         <!-- <iframe style="margin-top: 50px" width="400" height="400" src="https://www.youtube.com/embed/dPCUT80VFm4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
                         <p style="font-size: 15px; font-family: MontserratR;">HOW TO USE:</p>
-                        <p style="padding-left: 10px; padding-right: 10px; font-size: 15px; font-family: MontserratR;">Massage onto wet skin in a circular motion, carefully avoiding the eye area. Rinse with lukewarm water and pat dry. Use daily, morning and evening. For best results, follow by using LUXURIANT CRYSTALS Facial Serum and the Non-Stop moisture Cream. You can use the Hydra Fountain Capsules as your night serum and use the serum itself in the mornings.</p>
+                        <p style="padding-left: 10px; padding-right: 10px; font-size: 15px; font-family: MontserratR;">Carefully cut the edge of the capsule and gently squeeze the content on your palm or directly on a clean and dry face and neck area. Allow the formula to be completely absorbed and leave it for the night. Use every night as your nightly serum and at least 30 minutes before going to bed so it will be fully absorbed and won’t get on the pillow. For best results, first wash your face and neck area with the LUXURIANT CRYSTALS Creamy Facial Soap and after applying the Capsules seal it with the LUXURIANT CRYSTALS Non-Stop Moisture Cream.</p>
                     </div>
                 </ion-col>
             </ion-row>
@@ -54,7 +54,7 @@ import { defineComponent, onMounted, ref } from 'vue';
 import { useRouter } from 'vue-router';
 
 export default defineComponent({
-    name: 'skinluxuriantItem1',
+    name: 'skinluxuriantItem3',
     components: {
         IonContent,
         IonHeader,

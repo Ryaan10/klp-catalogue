@@ -25,20 +25,20 @@
             <ion-row style="color: white">
                 <ion-col>
                     <div style="text-align: center; margin-top: 10px; color: white; z-index: -1">
-                        <p style="font-family: MontserratR;">LUXURIANT CRYSTALS CREAMY FACIAL SOAPR</p>
+                        <p style="font-family: MontserratR;">LUXURIANT CRYSTALS HYDRATION MASK</p>
                         <ion-slides pager="false" :options="slideOpts" ref="mySlides">
                             <ion-slide>
                                 <div>
-                                    <ion-img :src="'/assets/SKIN CARE CATEGORY/LUXURIANT CRYSTALS SERIES/LUXURIANT CRYSTALS CREAMY FACIAL SOAP_7000.jpg'" id="product" style="margin-top: 15px; margin-bottom: 15px; height: 300px;"/>
+                                    <ion-img :src="'/assets/SKIN CARE CATEGORY/LUXURIANT CRYSTALS SERIES/LUXURIANT CRYSTALS HYDRATION MASK_50000.jpg'" id="product" style="margin-top: 15px; margin-bottom: 15px; height: 300px;"/>
                                 </div>
                             </ion-slide>
                         </ion-slides>  
-                        <p style="font-family: BodoniR;">₱7,000</p>
+                        <p style="font-family: BodoniR;">₱50,000</p>
                         <p style="font-size: 15px; font-family: MontserratR;">DETAILS</p>
-                        <p style="padding-left: 10px; padding-right: 10px; font-size: 15px; font-family: MontserratR;">This ultra-hydrating Facial Soap cleanses, boosts with hydration and soothes the skin with green tea extract, cucumber and Aloe Vera.</p>
+                        <p style="padding-left: 10px; padding-right: 10px; font-size: 15px; font-family: MontserratR;">This ultra vitamin mask boosts the skin with intense hydration, tones its texture and re-energizes the skin with concentrated dosage of essential nutrients.</p>
                         <!-- <iframe style="margin-top: 50px" width="400" height="400" src="https://www.youtube.com/embed/dPCUT80VFm4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
                         <p style="font-size: 15px; font-family: MontserratR;">HOW TO USE:</p>
-                        <p style="padding-left: 10px; padding-right: 10px; font-size: 15px; font-family: MontserratR;">Massage onto wet skin in a circular motion, carefully avoiding the eye area. Rinse with lukewarm water and pat dry. Use daily, morning and evening. For best results, follow by using LUXURIANT CRYSTALS Facial Serum and the Non-Stop moisture Cream. You can use the Hydra Fountain Capsules as your night serum and use the serum itself in the mornings.</p>
+                        <p style="padding-left: 10px; padding-right: 10px; font-size: 15px; font-family: MontserratR;">Apply an even layer of the mask onto clean and dry facial skin while avoiding the eye area and allow the hydrating ingredients to work for 10 minutes. Remove thoroughly with lukewarm water, then refresh with cool water and pat dry. Use once a week preferably at night at least 60 minutes before going to bed. For best results, first wash your face with the LUXURIANT CRYSTALS Creamy Facial Soap, then after the Mask follow by using LUXURIANT CRYSTALS Hydra Fountain Capsules and then the LUXURIANT CRYSTALS Non-Stop Moisture Cream.</p>
                     </div>
                 </ion-col>
             </ion-row>
@@ -54,7 +54,7 @@ import { defineComponent, onMounted, ref } from 'vue';
 import { useRouter } from 'vue-router';
 
 export default defineComponent({
-    name: 'skinluxuriantItem1',
+    name: 'skinluxuriantItem4',
     components: {
         IonContent,
         IonHeader,

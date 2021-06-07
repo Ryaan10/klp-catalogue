@@ -25,7 +25,7 @@
             <ion-row style="color: white">
                 <ion-col>
                     <div style="text-align: center; margin-top: 10px; color: white; z-index: -1">
-                        <p style="font-family: MontserratR;">LUXURIANT CRYSTALS CREAMY FACIAL SOAPR</p>
+                        <p style="font-family: MontserratR;">LUXURIANT CRYSTALS CREAMY FACIAL SOAP</p>
                         <ion-slides pager="false" :options="slideOpts" ref="mySlides">
                             <ion-slide>
                                 <div>
