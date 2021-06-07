@@ -90,9 +90,9 @@ import SkinFreshwaterItem4 from '../views/SkinFreshwater/SkinFreshwaterItem4.vue
 
 import SkinHyaluronic from '../views/SkinHyaluronic/SkinHyaluronicList.vue';
 import SkinHyaluronicItem1 from '../views/SkinHyaluronic/SkinHyaluronicItem1.vue';
-import SkinHyaluronicItem2 from '../views/SkinHyaluronic/skinhyaluronicItem2.vue';
+import SkinHyaluronicItem2 from '../views/SkinHyaluronic/SkinHyaluronicItem2.vue';
 import SkinHyaluronicItem3 from '../views/SkinHyaluronic/SkinHyaluronicItem3.vue';
-import SkinHyaluronicItem4 from '../views/SkinHyaluronic/skinhyaluronicItem4.vue';
+import SkinHyaluronicItem4 from '../views/SkinHyaluronic/SkinHyaluronicItem4.vue';
 
 
 import SkinLuxuriant from '../views/SkinLuxuriant/SkinLuxuriantList.vue';
