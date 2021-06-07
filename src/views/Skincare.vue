@@ -14,11 +14,11 @@
                 <ion-icon name="chevron-forward" style="color: white; margin-left: 3px; font-size: 13px"></ion-icon>
                 <a style="color: white; margin-left: 3px; font-size: 13px; font-family: MontserratR; letter-spacing: 1px">SKIN CARE</a>
                 
-                <ion-img :src="'/assets/homepage/backbutton.svg'" @click="() => router.push('/home')" style="width: 25px; float: right; right: 0; position: absolute"/>
+                <ion-img :src="'/assets/homepage/backbutton.svg'" @click="() => router.push('/home')" style="width: 35px; float: right; right: 8px; position: absolute"/>
             </ion-list-header>
 
             <ion-img :src="'/assets/homepage/2.jpg'"/>
-            <p id="category">SKIN CARE <ion-img :src="'/assets/homepage/diamond.png'" style=" display: block; margin-left: auto; margin-right: auto; width: 30px; margin-top: 10px"/></p>
+            <p id="category">SKIN CARE <ion-img :src="'/assets/homepage/diamond.jpg'" style=" display: block; margin-left: auto; margin-right: auto; width: 30px; margin-top: 10px"/></p>
             <p style="margin: 10px; font-size: 14px; font-family: MontserratR; color: white; text-align: center;">Level up your skin fascination with the exquisite beauty touch of the FTV Skincare line. 
                     Designed with a unique and exclusive patented delivery system - Betoxynol-4™, to maximize the absorption of beneficial ingredients - giving an immediate, as well as long lasting, intense results into the skin. </p>
             <ion-grid>
