@@ -51,7 +51,7 @@
     import { useRouter } from 'vue-router'
 
     export default defineComponent({
-        name: 'MakeupList',
+        name: 'skincare',
         components: {
             IonContent,
             IonHeader,
@@ -65,7 +65,7 @@
         },
         methods:{
             goToPage(id: number) {
-                this.$router.push({name: "MakeupFace", params: {id: id}})
+                this.$router.push({name: "skincheckmate", params: {id: id}})
             }
         }
        

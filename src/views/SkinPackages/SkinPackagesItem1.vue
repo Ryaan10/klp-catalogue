@@ -1,10 +1,5 @@
 <template>
  <ion-page>
-    <!-- <ion-header :translucent="true">
-      <ion-toolbar>
-        <ion-title>Category 1</ion-title>
-      </ion-toolbar>
-    </ion-header> -->
 
      <ion-content :fullscreen="true" class="background">
       <ion-header collapse="condense">
@@ -20,30 +15,55 @@
             <ion-icon name="search-outline" style="color: white; font-size: 13px"></ion-icon>
             <a style="color: white; margin-left: 3px; font-size: 13px; font-family: MontserratR; letter-spacing: 1px" @click="() => router.push('/home')">MAIN MENU</a> 
             <ion-icon name="chevron-forward" style="color: white; margin-left: 3px; font-size: 13px"></ion-icon>
-            <a style="color: white; margin-left: 3px; font-size: 13px; font-family: MontserratR; letter-spacing: 1px" @click="() => router.push('/makeup')">MAKE UP</a> 
+            <a style="color: white; margin-left: 3px; font-size: 13px; font-family: MontserratR; letter-spacing: 1px" @click="() => router.push('/skincare')">SKIN CARE</a> 
             <ion-icon name="chevron-forward" style="color: white; margin-left: 3px; font-size: 13px"></ion-icon>
-            <a style="color: white; margin-left: 3px; font-size: 13px; font-family: MontserratR; letter-spacing: 1px" @click="() => router.push('/MakeupLipsList')">LIPS</a> 
+            <a style="color: white; margin-left: 3px; font-size: 13px; font-family: MontserratR; letter-spacing: 1px" @click="backToList()">LUXURIANT CRYSTALS SERIES</a> 
 
             <ion-img :src="'/assets/homepage/backbutton.svg'" @click="backToList()"  style="width: 35px; float: right; right: 8px; position: absolute"/>
         </ion-list-header>
         <ion-grid>
             <ion-row style="color: white">
                 <ion-col>
-                    <!-- <ion-icon name="chevron-back" style="color: white; margin-left: 3px; font-size: 28px; margin-top: 180px; position: absolute; left: 0; z-index: 100" @click="prevSlide"></ion-icon>
-                    <ion-icon name="chevron-forward" style="color: white; margin-left: 3px; font-size: 28px; margin-top: 180px; position: absolute; right: 0; z-index: 100" @click="nextSlide"></ion-icon> -->
                     <div style="text-align: center; margin-top: 10px; color: white; z-index: -1">
-                        <p style="font-family: MontserratR;">CHUBBY LIPSTICK</p>
+                        <p style="font-family: MontserratR;">24 KARAT GOLDEN BLACK PREMIUM SUITCASE</p>
                         <ion-slides pager="false" :options="slideOpts" ref="mySlides">
                             <ion-slide>
                                 <div>
-                                    <ion-img :src="'/assets/MAKEUP CATEGORY/For lips/1.jpg'" id="product" style="margin-top: 15px; margin-bottom: 15px; height: 300px;"/>
+                                    <ion-img :src="'/assets/SKIN CARE CATEGORY/SKINCARE PACKAGES/24 KARAT GOLDEN BLACK PREMIUM SUITCASE_426000.jpg'" id="product" style="margin-top: 15px; margin-bottom: 15px; height: 300px;"/>
                                 </div>
                             </ion-slide>
                         </ion-slides>  
-                        <p style="font-family: BodoniR;">₱5,300</p>
+                        <p style="font-family: BodoniR;">₱426,000</p>
                         <p style="font-size: 15px; font-family: MontserratR;">DETAILS</p>
-                        <p style="padding-left: 10px; padding-right: 10px; font-size: 15px; font-family: MontserratR;">This innovative Chubby Lip Pencil instantly takes any look to the next level, making your lips appear lush and plump with a charming velvety matte finish.</p>
+                        <p style="padding-left: 10px; padding-right: 10px; font-size: 15px; font-family: MontserratR;">The FTV Flash White Pearl Premium Case brings the full range of the 24 Karat Golden Hero in a premium suitcase. <br /><br />
+                        THE SET INCLUDES:<br /><br />
+                        
+                        24 Karat Golden Hero Mega Mask <br />
+                        24 Karat Golden Hero Hydration Cream <br />
+                        24 Karat Golden Hero Facial Serum <br />
+                        24 Karat Golden Hero Peeling Gel <br />
+                        24 Karat Golden Hero Eye Cream <br /><br />
+</p>
                         <!-- <iframe style="margin-top: 50px" width="400" height="400" src="https://www.youtube.com/embed/dPCUT80VFm4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+                        <p style="font-size: 15px; font-family: MontserratR;">HOW TO USE:</p>
+                        <p style="padding-left: 10px; padding-right: 10px; font-size: 15px; font-family: MontserratR;">
+
+                            <b>24 Karat Golden Hero Facial Serum</b>
+                            Apply evenly into a dry and clean face and neck. Massage in until fully absorbed. Use daily. For best results, follow by using 24 KARAT GOLDEN HERO Eye Cream and 24 KARAT GOLDEN HERO Hydration Cream.
+                            <br /><br />
+                            <b>24 Karat Golden Hero Eye Cream</b>
+                            Using your ring finger, apply on a dry and clean eye area with a gentle patting motion. Use daily. For best results, follow by using 24 KARAT GOLDEN HERO Hydration Cream
+                            <br /><br />
+                            <b>24 Karat Golden Hero Hydration Cream</b>
+                            Apply an even layer onto dry and clean face and neck. Massage in until fully absorbed. Use daily.
+                            <br /><br />
+                            <b>24 Karat Golden Hero Peeling Gel</b>
+                            Apply an even layer onto dry and clean skin, carefully avoiding the eye area. Following the application, wait a few seconds and gently massage your facial skin in circular movements. The gel transforms into small particles that collect all the dirt and impurities. Rinse thoroughly with warm water. Use once or twice a week (for more oily skin use 2 times a week). For best results, follow by using 24 KARAT GOLDEN HERO Facial Serum, Eye Cream and Hydration Cream
+                            <br /><br />
+                            <b>24 Karat Golden Hero Mega Mask</b>
+                            On a dry skin, apply an even layer all over the face with the spatula while carefully avoiding the eye area and wait for 20 seconds. Wrap the magnet with a tissue and glide it gently over the facial skin (barely touching it) to completely remove the mask while leaving only the golden veil (the serum). Massage your skin for 2-3 minutes and rinse with warm water. Recommended usage: Once a week at least 30 min before bed time. 
+                        
+                        </p>
                     </div>
                 </ion-col>
             </ion-row>
@@ -59,7 +79,7 @@ import { defineComponent, onMounted, ref } from 'vue';
 import { useRouter } from 'vue-router';
 
 export default defineComponent({
-    name: 'MakeupFaceItem1',
+    name: 'skinpackagesItem1',
     components: {
         IonContent,
         IonHeader,
@@ -99,7 +119,7 @@ export default defineComponent({
 
     methods:{
         backToList() {
-            this.$router.push({name: "MakeupLipsList"})
+            this.$router.push({name: "skinpackages"})
         },
     }
     
