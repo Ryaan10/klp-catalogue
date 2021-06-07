@@ -12,25 +12,21 @@
                 <ion-icon name="search-outline" style="color: white; font-size: 13px"></ion-icon>
                 <a style="color: white; margin-left: 3px; font-size: 13px; font-family: MontserratR; letter-spacing: 1px" @click="() => router.push('/home')">MAIN MENU</a> 
                 <ion-icon name="chevron-forward" style="color: white; margin-left: 3px; font-size: 13px"></ion-icon>
-                <a style="color: white; margin-left: 3px; font-size: 13px; font-family: MontserratR; letter-spacing: 1px">BODY CARE</a>
+                <a style="color: white; margin-left: 3px; font-size: 13px; font-family: MontserratR; letter-spacing: 1px" @click="() => router.push('/bodycare')">BODY CARE</a>
+                <ion-icon name="chevron-forward" style="color: white; margin-left: 3px; font-size: 13px"></ion-icon>
+                <a style="color: white; margin-left: 3px; font-size: 13px; font-family: MontserratR; letter-spacing: 1px">ALL PRODUCTS</a>
 
-                <ion-img :src="'/assets/homepage/backbutton.svg'" @click="() => router.push('/home')" style="width: 35px; float: right; right: 8px; position: absolute"/>
+                <ion-img :src="'/assets/homepage/backbutton.svg'" @click="() => router.push('/bodycare')" style="width: 35px; float: right; right: 8px; position: absolute"/>
             </ion-list-header>
 
-            <ion-img :src="'/assets/homepage/3.jpg'"/>
-            <p id="category">BODY CARE<ion-img :src="'/assets/homepage/diamond.jpg'" style=" display: block; margin-left: auto; margin-right: auto; width: 30px; margin-top: 10px"/></p>
-            <p style="margin: 10px; font-size: 14px; font-family: MontserratR; color: white; text-align: center;">Strike a pose as you reveal your glowing skin with the FTV Bodycare line. This offers a wide range of products to make your skin feel pampered from head to toe while giving that overall glow up into your skin..</p>
             <ion-grid>
                 <ion-row>
                     <ion-col style="text-align: center;">
-                        <ion-img :src="'/assets/BODY CARE CATEGORY/1.jpg'" @click="() => router.push('/BodyCareAllList')"/>
-                        <ion-card-content style="padding: 9px; background-color: black; color: white; font-size: 13px; border-style: solid; border-color: grey!important; border-width: 2px;">ALL PRODUCTS</ion-card-content>
-                    </ion-col>
-                    <ion-col style="text-align: center;">
-                        <ion-img :src="'/assets/BODY CARE CATEGORY/2.jpg'" @click="() => router.push('/BodyCareMenList')"/>
-                        <ion-card-content style="padding: 9px; background-color: black; color: white; font-size: 13px; border-style: solid; border-color: grey!important; border-width: 2px;">MEN</ion-card-content>
+                        <ion-img :src="'/assets/BODY CARE CATEGORY/For Men/FASHION ELIXIR 3IN1 AFTERSHAVE CREAM_17000.jpg'" @click="() => router.push('/BodyCareMenItem1')"/>
+                        <ion-card-content style="padding: 9px; background-color: black; color: white; font-size: 13px; border-style: solid; border-color: grey!important; border-width: 2px;">FASHION ELIXIR 3IN1 AFTERSHAVE CREAM: FOR MEN<br>₱17,000</ion-card-content>
                     </ion-col>
                 </ion-row>
+              
             </ion-grid>
         </div>
         </ion-content>
@@ -42,7 +38,7 @@
     import { useRouter } from 'vue-router'
 
     export default defineComponent({
-        name: 'Makeup',
+        name: 'MakeupList',
         components: {
             IonContent,
             IonHeader,
@@ -53,8 +49,15 @@
         setup() {
             const router = useRouter();
             return { router };
+        },
+        methods:{
+            goToPage(id: number) {
+                this.$router.push({name: "MakeupFace", params: {id: id}})
             }
-        });
+        }
+       
+    });
+       
 </script>
 <style scoped>
     ion-content.background{

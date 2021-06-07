@@ -125,6 +125,9 @@ import MakeupBodyCareItem6 from '../views/BodyCareAll/Item6.vue';
 import MakeupBodyCareItem7 from '../views/BodyCareAll/Item7.vue';
 import MakeupBodyCareItem8 from '../views/BodyCareAll/Item8.vue';
 
+import BodyCareMenList from '../views/BodyCareMen/BodyCareMenList.vue';
+import BodyCareMenItem1 from '../views/BodyCareMen/Item1.vue';
+
 
 const routes: Array<RouteRecordRaw> = [
   {
@@ -688,6 +691,17 @@ const routes: Array<RouteRecordRaw> = [
     path: '/MakeupBodyCareItem8',
     name: 'MakeupBodyCareItem8',
     component: MakeupBodyCareItem8
+  },
+
+  {
+    path: '/BodyCareMenList',
+    name: 'BodyCareMenList',
+    component: BodyCareMenList
+  },
+  {
+    path: '/BodyCareMenItem1',
+    name: 'BodyCareMenItem1',
+    component: BodyCareMenItem1
   }
   
 ]
