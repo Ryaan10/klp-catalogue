@@ -16,7 +16,7 @@
                 <ion-img :src="'/assets/main category/category2.jpg'" id="category" router-link="/skincare"/>
                 <ion-img :src="'/assets/main category/category3.jpg'" id="category" router-link="/bodycare"/>
                 <ion-img :src="'/assets/main category/category4.jpg'" id="category" router-link="/haircare"/>
-                <ion-img :src="'/assets/main category/category5.jpg'" id="category" router-link="/treatments"/>
+                <ion-img :src="'/assets/main category/category5.jpg'" id="category" router-link="/ftvtreatments"/>
                 <ion-img :src="'/assets/main category/category6.jpg'" id="category" router-link="/packages" style="margin-bottom: 10px"/>
             </div>
         </ion-content>

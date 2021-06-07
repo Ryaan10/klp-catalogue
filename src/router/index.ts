@@ -6,6 +6,7 @@ import Bodycare from '../views/Bodycare.vue';
 import Packages from '../views/Packages.vue';
 import Skincare from '../views/Skincare.vue';
 import Haircare from '../views/Haircare.vue';
+import FTVTreatments from '../views/FTVTreatments.vue';
 
 import MakeupFaceList from '../views/MakeupFace/MakeupFaceList.vue';
 import MakeupFaceItem1 from '../views/MakeupFace/Item1.vue';
@@ -158,6 +159,11 @@ const routes: Array<RouteRecordRaw> = [
     path: '/haircare',
     name: 'Haircare',
     component: Haircare
+  },
+  {
+    path: '/ftvtreatments',
+    name: 'FTVTreatments',
+    component: FTVTreatments
   },
   {
     path: '/makeupfacelist',
