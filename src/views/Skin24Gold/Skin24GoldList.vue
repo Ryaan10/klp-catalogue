@@ -43,7 +43,7 @@
                 <ion-row>
                     <ion-col style="text-align: center;">
                         <ion-img :src="'/assets/SKIN CARE CATEGORY/24 KARAT GOLDEN HERO SERIES/24 KARAT GOLDEN HERO PEELING GEL_20000.jpg'" @click="() => router.push('/skin24goldItem5')"/>
-                        <ion-card-content style="padding: 9px; background-color: black; color: white; font-size: 13px; border-style: solid; border-color: grey!important; border-width: 2px;">TRIANGLE PALLETTE<br>₱20,000</ion-card-content>
+                        <ion-card-content style="padding: 9px; background-color: black; color: white; font-size: 13px; border-style: solid; border-color: grey!important; border-width: 2px;">24 KARAT GOLDEN HERO PEELING GEL<br>₱20,000</ion-card-content>
                     </ion-col>
                     <ion-col style="text-align: center;">
                     </ion-col>
