@@ -25,20 +25,20 @@
             <ion-row style="color: white">
                 <ion-col>
                     <div style="text-align: center; margin-top: 10px; color: white; z-index: -1">
-                        <p style="font-family: MontserratR;">CHECKMATE PINK PEARL FACIAL CREAM</p>
+                        <p style="font-family: MontserratR;">CHECKMATE PINK PEARL SPOT GEL</p>
                         <ion-slides pager="false" :options="slideOpts" ref="mySlides">
                             <ion-slide>
                                 <div>
-                                    <ion-img :src="'/assets/SKIN CARE CATEGORY/CHECKMATE PINK PEARL SERIES/CHECKMATE PINK PEARL FACIAL CREAM_7000.jpg'" id="product" style="margin-top: 15px; margin-bottom: 15px; height: 300px;"/>
+                                    <ion-img :src="'/assets/SKIN CARE CATEGORY/CHECKMATE PINK PEARL SERIES/CHECKMATE PINK PEARL SPOT GEL_7000.jpg'" id="product" style="margin-top: 15px; margin-bottom: 15px; height: 300px;"/>
                                 </div>
                             </ion-slide>
                         </ion-slides>  
                         <p style="font-family: BodoniR;">₱7,000</p>
                         <p style="font-size: 15px; font-family: MontserratR;">DETAILS</p>
-                        <p style="padding-left: 10px; padding-right: 10px; font-size: 15px; font-family: MontserratR;">This ultra-rich Eye Cream is designed to reduce fine lines, wrinkle appearance and puffiness around the eye area while improving skin elasticity and radiance.</p>
+                        <p style="padding-left: 10px; padding-right: 10px; font-size: 15px; font-family: MontserratR;">This Spot Gel accelerates the clearing of breakout appearance thanks to the benefits of salicylic acid.</p>
                         <!-- <iframe style="margin-top: 50px" width="400" height="400" src="https://www.youtube.com/embed/dPCUT80VFm4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
                         <p style="font-size: 15px; font-family: MontserratR;">HOW TO USE:</p>
-                        <p style="padding-left: 10px; padding-right: 10px; font-size: 15px; font-family: MontserratR;">Using your ring finger, apply on a dry and clean eye area with a gentle patting motion. Use daily. For best results, follow by using 24 KARAT GOLDEN HERO Hydration Cream.</p>
+                        <p style="padding-left: 10px; padding-right: 10px; font-size: 15px; font-family: MontserratR;">After cleansing your face, apply the product on targeted acne spots only. * If applied on the entire face it will over dry the skin. * Use up to three times a day.</p>
                     </div>
                 </ion-col>
             </ion-row>
@@ -54,7 +54,7 @@ import { defineComponent, onMounted, ref } from 'vue';
 import { useRouter } from 'vue-router';
 
 export default defineComponent({
-    name: 'SkinCheckmateItem4',
+    name: 'SkinCheckmateItem2',
     components: {
         IonContent,
         IonHeader,

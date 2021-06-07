@@ -17,7 +17,7 @@
             <ion-icon name="chevron-forward" style="color: white; margin-left: 3px; font-size: 13px"></ion-icon>
             <a style="color: white; margin-left: 3px; font-size: 13px; font-family: MontserratR; letter-spacing: 1px" @click="() => router.push('/skincare')">SKIN CARE</a> 
             <ion-icon name="chevron-forward" style="color: white; margin-left: 3px; font-size: 13px"></ion-icon>
-            <a style="color: white; margin-left: 3px; font-size: 13px; font-family: MontserratR; letter-spacing: 1px" @click="() => router.push('/SkinCheckmateList')">CHECKMATE PINK PEARL SERIES</a> 
+            <a style="color: white; margin-left: 3px; font-size: 13px; font-family: MontserratR; letter-spacing: 1px" @click="backToList()">CHECKMATE PINK PEARL SERIES</a> 
 
             <ion-img :src="'/assets/homepage/backbutton.svg'" @click="backToList()"  style="width: 35px; float: right; right: 8px; position: absolute"/>
         </ion-list-header>
@@ -35,10 +35,10 @@
                         </ion-slides>  
                         <p style="font-family: BodoniR;">₱7,000</p>
                         <p style="font-size: 15px; font-family: MontserratR;">DETAILS</p>
-                        <p style="padding-left: 10px; padding-right: 10px; font-size: 15px; font-family: MontserratR;">This ultra-rich Eye Cream is designed to reduce fine lines, wrinkle appearance and puffiness around the eye area while improving skin elasticity and radiance.</p>
+                        <p style="padding-left: 10px; padding-right: 10px; font-size: 15px; font-family: MontserratR;">This marvelous Facial Cream works to refresh and moisturize the skin as well as to balance the skin tone and texture appearance.</p>
                         <!-- <iframe style="margin-top: 50px" width="400" height="400" src="https://www.youtube.com/embed/dPCUT80VFm4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
                         <p style="font-size: 15px; font-family: MontserratR;">HOW TO USE:</p>
-                        <p style="padding-left: 10px; padding-right: 10px; font-size: 15px; font-family: MontserratR;">Using your ring finger, apply on a dry and clean eye area with a gentle patting motion. Use daily. For best results, follow by using 24 KARAT GOLDEN HERO Hydration Cream.</p>
+                        <p style="padding-left: 10px; padding-right: 10px; font-size: 15px; font-family: MontserratR;">Apply an even layer into dry and clean face and neck (while avoiding the eye area). Massage gently in circular motions until fully absorbed. Use daily.</p>
                     </div>
                 </ion-col>
             </ion-row>

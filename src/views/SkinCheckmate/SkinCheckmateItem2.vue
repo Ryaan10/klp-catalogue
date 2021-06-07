@@ -17,7 +17,7 @@
             <ion-icon name="chevron-forward" style="color: white; margin-left: 3px; font-size: 13px"></ion-icon>
             <a style="color: white; margin-left: 3px; font-size: 13px; font-family: MontserratR; letter-spacing: 1px" @click="() => router.push('/skincare')">SKIN CARE</a> 
             <ion-icon name="chevron-forward" style="color: white; margin-left: 3px; font-size: 13px"></ion-icon>
-            <a style="color: white; margin-left: 3px; font-size: 13px; font-family: MontserratR; letter-spacing: 1px" @click="() => router.push('/SkinCheckmateList')">CHECKMATE PINK PEARL SERIES</a> 
+            <a style="color: white; margin-left: 3px; font-size: 13px; font-family: MontserratR; letter-spacing: 1px" @click="backToList()">CHECKMATE PINK PEARL SERIES</a> 
 
             <ion-img :src="'/assets/homepage/backbutton.svg'" @click="backToList()"  style="width: 35px; float: right; right: 8px; position: absolute"/>
         </ion-list-header>
@@ -25,20 +25,20 @@
             <ion-row style="color: white">
                 <ion-col>
                     <div style="text-align: center; margin-top: 10px; color: white; z-index: -1">
-                        <p style="font-family: MontserratR;">CHECKMATE PINK PEARL FACIAL CREAM</p>
+                        <p style="font-family: MontserratR;">CHECKMATE PINK PEARL FACIAL SERUM</p>
                         <ion-slides pager="false" :options="slideOpts" ref="mySlides">
                             <ion-slide>
                                 <div>
-                                    <ion-img :src="'/assets/SKIN CARE CATEGORY/CHECKMATE PINK PEARL SERIES/CHECKMATE PINK PEARL FACIAL CREAM_7000.jpg'" id="product" style="margin-top: 15px; margin-bottom: 15px; height: 300px;"/>
+                                    <ion-img :src="'/assets/SKIN CARE CATEGORY/CHECKMATE PINK PEARL SERIES/CHECKMATE PINK PEARL FACIAL SERUM_14000.jpg'" id="product" style="margin-top: 15px; margin-bottom: 15px; height: 300px;"/>
                                 </div>
                             </ion-slide>
                         </ion-slides>  
-                        <p style="font-family: BodoniR;">₱7,000</p>
+                        <p style="font-family: BodoniR;">₱14,000</p>
                         <p style="font-size: 15px; font-family: MontserratR;">DETAILS</p>
-                        <p style="padding-left: 10px; padding-right: 10px; font-size: 15px; font-family: MontserratR;">This ultra-rich Eye Cream is designed to reduce fine lines, wrinkle appearance and puffiness around the eye area while improving skin elasticity and radiance.</p>
+                        <p style="padding-left: 10px; padding-right: 10px; font-size: 15px; font-family: MontserratR;">This high-performance Facial Serum visibly helps to fresh, soften and even the skin complexion.</p>
                         <!-- <iframe style="margin-top: 50px" width="400" height="400" src="https://www.youtube.com/embed/dPCUT80VFm4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
                         <p style="font-size: 15px; font-family: MontserratR;">HOW TO USE:</p>
-                        <p style="padding-left: 10px; padding-right: 10px; font-size: 15px; font-family: MontserratR;">Using your ring finger, apply on a dry and clean eye area with a gentle patting motion. Use daily. For best results, follow by using 24 KARAT GOLDEN HERO Hydration Cream.</p>
+                        <p style="padding-left: 10px; padding-right: 10px; font-size: 15px; font-family: MontserratR;">Apply a few drops on a clean and dry face and gently massage into your face and neck until fully absorbed. Use it daily. For best results, prior to applying the Serum wash your face with our everyday basic cleansing product- Freshwater Pearls Facial Cleansing Soap and then after the Serum follow by using CHECKMATE PINK PEARL Facial Cream.</p>
                     </div>
                 </ion-col>
             </ion-row>
