@@ -5,6 +5,7 @@ import Makeup from '../views/Makeup.vue';
 import Bodycare from '../views/Bodycare.vue';
 import Packages from '../views/Packages.vue';
 import Skincare from '../views/Skincare.vue';
+import Haircare from '../views/Haircare.vue';
 
 import MakeupFaceList from '../views/MakeupFace/MakeupFaceList.vue';
 import MakeupFaceItem1 from '../views/MakeupFace/Item1.vue';
@@ -128,6 +129,15 @@ import MakeupBodyCareItem8 from '../views/BodyCareAll/Item8.vue';
 import BodyCareMenList from '../views/BodyCareMen/BodyCareMenList.vue';
 import BodyCareMenItem1 from '../views/BodyCareMen/Item1.vue';
 
+import HairCareAllList from '../views/HairCareAll/HairCareAllList.vue';
+import HairCareAllItem1 from '../views/HairCareAll/Item1.vue';
+import HairCareAllItem2 from '../views/HairCareAll/Item2.vue';
+import HairCareAllItem3 from '../views/HairCareAll/Item3.vue';
+import HairCareAllItem4 from '../views/HairCareAll/Item4.vue';
+import HairCareAllItem5 from '../views/HairCareAll/Item5.vue';
+import HairCareAllItem6 from '../views/HairCareAll/Item6.vue';
+import HairCareAllItem7 from '../views/HairCareAll/Item7.vue';
+
 
 const routes: Array<RouteRecordRaw> = [
   {
@@ -143,6 +153,11 @@ const routes: Array<RouteRecordRaw> = [
     path: '/makeup',
     name: 'Makeup',
     component: Makeup
+  },
+  {
+    path: '/haircare',
+    name: 'Haircare',
+    component: Haircare
   },
   {
     path: '/makeupfacelist',
@@ -702,6 +717,48 @@ const routes: Array<RouteRecordRaw> = [
     path: '/BodyCareMenItem1',
     name: 'BodyCareMenItem1',
     component: BodyCareMenItem1
+  },
+
+  //Haircare
+  {
+    path: '/HairCareAllList',
+    name: 'HairCareAllList',
+    component: HairCareAllList
+  },
+  {
+    path: '/HairCareAllItem1',
+    name: 'HairCareAllItem1',
+    component: HairCareAllItem1
+  },
+  {
+    path: '/HairCareAllItem2',
+    name: 'HairCareAllItem2',
+    component: HairCareAllItem2
+  },
+  {
+    path: '/HairCareAllItem3',
+    name: 'HairCareAllItem3',
+    component: HairCareAllItem3
+  },
+  {
+    path: '/HairCareAllItem4',
+    name: 'HairCareAllItem4',
+    component: HairCareAllItem4
+  },
+  {
+    path: '/HairCareAllItem5',
+    name: 'HairCareAllItem5',
+    component: HairCareAllItem5
+  },
+  {
+    path: '/HairCareAllItem6',
+    name: 'HairCareAllItem6',
+    component: HairCareAllItem6
+  },
+  {
+    path: '/HairCareAllItem7',
+    name: 'HairCareAllItem7',
+    component: HairCareAllItem7
   }
   
 ]
