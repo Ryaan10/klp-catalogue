@@ -14,7 +14,7 @@
                 <ion-icon name="chevron-forward" style="color: white; margin-left: 3px; font-size: 13px"></ion-icon>
                 <a style="color: white; margin-left: 3px; font-size: 13px; font-family: MontserratR; letter-spacing: 1px" @click="() => router.push('/skincare')">SKIN CARE</a>
                 <ion-icon name="chevron-forward" style="color: white; margin-left: 3px; font-size: 13px"></ion-icon>
-                <a style="color: white; margin-left: 3px; font-size: 13px; font-family: MontserratR; letter-spacing: 1px">PEPTIDE EYE BLESSING SERIES</a>
+                <a style="color: white; margin-left: 3px; font-size: 13px; font-family: MontserratR; letter-spacing: 1px; text-overflow: ellipsis; white-space: nowrap; overflow: hidden; width: 35%">PEPTIDE EYE BLESSING SERIES</a>
 
                 <ion-img :src="'/assets/homepage/backbutton.svg'" @click="() => router.push('/skincare')" style="width: 35px; float: right; right: 8px; position: absolute"/>
             </ion-list-header>
