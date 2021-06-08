@@ -23,21 +23,21 @@
                 <ion-row>
                     <ion-col style="text-align: center;">
                         <ion-img :src="'/assets/SKIN CARE CATEGORY/PEPTIDE EYE BLESSING SERIES/FTV PEPTIDE EYE BLESSING MIRACLE PUFFINESS ELIMINATING CREAM_23000.jpg'" @click="() => router.push('/skinpeptideItem1')"/>
-                        <ion-card-content style="padding: 9px; background-color: black; color: white; font-size: 13px; border-style: solid; border-color: grey!important; border-width: 2px;">FTV PEPTIDE EYE BLESSING MIRACLE PUFFINESS ELIMINATING CREAM<br>₱23,000</ion-card-content>
+                        <ion-card-content style="padding: 9px; background-color: black; color: white; font-size: 13px; border-style: solid; border-color: grey!important; border-width: 2px; display: flex; align-items: center; justify-content: center; height: 80px;">FTV PEPTIDE EYE BLESSING MIRACLE PUFFINESS ELIMINATING CREAM<br>₱23,000</ion-card-content>
                     </ion-col>
                     <ion-col style="text-align: center;">
                         <ion-img :src="'/assets/SKIN CARE CATEGORY/PEPTIDE EYE BLESSING SERIES/PEPTIDE EYE BLESSING FIRMARVEL CREAM_15000.jpg'" @click="() => router.push('/skinpeptideItem2')"/>
-                        <ion-card-content style="padding: 9px; background-color: black; color: white; font-size: 13px; border-style: solid; border-color: grey!important; border-width: 2px;">PEPTIDE EYE BLESSING FIRMARVEL CREAM<br>₱15,000</ion-card-content>
+                        <ion-card-content style="padding: 9px; background-color: black; color: white; font-size: 13px; border-style: solid; border-color: grey!important; border-width: 2px; display: flex; align-items: center; justify-content: center; height: 80px;">PEPTIDE EYE BLESSING FIRMARVEL CREAM<br>₱15,000</ion-card-content>
                     </ion-col>
                 </ion-row>
                 <ion-row>
                     <ion-col style="text-align: center;">
                         <ion-img :src="'/assets/SKIN CARE CATEGORY/PEPTIDE EYE BLESSING SERIES/PEPTIDE EYE BLESSING INTENSIVE SERUM_15000.jpg'" @click="() => router.push('/skinpeptideItem3')"/>
-                        <ion-card-content style="padding: 9px; background-color: black; color: white; font-size: 13px; border-style: solid; border-color: grey!important; border-width: 2px;">PEPTIDE EYE BLESSING INTENSIVE SERUM<br>₱15,000</ion-card-content>
+                        <ion-card-content style="padding: 9px; background-color: black; color: white; font-size: 13px; border-style: solid; border-color: grey!important; border-width: 2px; display: flex; align-items: center; justify-content: center; height: 80px;">PEPTIDE EYE BLESSING INTENSIVE SERUM<br>₱15,000</ion-card-content>
                     </ion-col> 
                     <ion-col style="text-align: center;">
                         <ion-img :src="'/assets/SKIN CARE CATEGORY/PEPTIDE EYE BLESSING SERIES/PEPTIDE EYE BLESSING NIGHTLY CAPSULES_30000.jpg'" @click="() => router.push('/skinpeptideItem4')"/>
-                        <ion-card-content style="padding: 9px; background-color: black; color: white; font-size: 13px; border-style: solid; border-color: grey!important; border-width: 2px;">PEPTIDE EYE BLESSING NIGHTLY CAPSULES<br>₱30,000</ion-card-content>
+                        <ion-card-content style="padding: 9px; background-color: black; color: white; font-size: 13px; border-style: solid; border-color: grey!important; border-width: 2px; display: flex; align-items: center; justify-content: center; height: 80px;">PEPTIDE EYE BLESSING NIGHTLY CAPSULES<br>₱30,000</ion-card-content>
                     </ion-col>
                 </ion-row>
             </ion-grid>

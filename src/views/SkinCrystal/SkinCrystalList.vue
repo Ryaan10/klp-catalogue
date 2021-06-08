@@ -23,17 +23,17 @@
                 <ion-row>
                     <ion-col style="text-align: center;">
                         <ion-img :src="'/assets/SKIN CARE CATEGORY/CRYSTAL - FUSION DECOLLIFTE SERIES/CRYSTAL - FUSION DECOLLIFTE CREAM_15000.jpg'" @click="() => router.push('/skincrystalItem1')"/>
-                        <ion-card-content style="padding: 9px; background-color: black; color: white; font-size: 13px; border-style: solid; border-color: grey!important; border-width: 2px;">CRYSTAL - FUSION DECOLLIFTE CREAM<br>₱15,000</ion-card-content>
+                        <ion-card-content style="padding: 9px; background-color: black; color: white; font-size: 13px; border-style: solid; border-color: grey!important; border-width: 2px; display: flex; align-items: center; justify-content: center; height: 80px;">CRYSTAL - FUSION DECOLLIFTE CREAM<br>₱15,000</ion-card-content>
                     </ion-col>
                     <ion-col style="text-align: center;">
                         <ion-img :src="'/assets/SKIN CARE CATEGORY/CRYSTAL - FUSION DECOLLIFTE SERIES/CRYSTAL - FUSION DECOLLIFTE LIPID CAPSULES_30000.jpg'" @click="() => router.push('/skincrystalItem2')"/>
-                        <ion-card-content style="padding: 9px; background-color: black; color: white; font-size: 13px; border-style: solid; border-color: grey!important; border-width: 2px;">CRYSTAL - FUSION DECOLLIFTE LIPID CAPSULES<br>₱30,000</ion-card-content>
+                        <ion-card-content style="padding: 9px; background-color: black; color: white; font-size: 13px; border-style: solid; border-color: grey!important; border-width: 2px; display: flex; align-items: center; justify-content: center; height: 80px;">CRYSTAL - FUSION DECOLLIFTE LIPID CAPSULES<br>₱30,000</ion-card-content>
                     </ion-col>
                 </ion-row>
                 <ion-row>
                     <ion-col style="text-align: center;">
                         <ion-img :src="'/assets/SKIN CARE CATEGORY/CRYSTAL - FUSION DECOLLIFTE SERIES/CRYSTAL - FUSION DECOLLIFTE MASK_40000.jpg'" @click="() => router.push('/skincrystalItem3')"/>
-                        <ion-card-content style="padding: 9px; background-color: black; color: white; font-size: 13px; border-style: solid; border-color: grey!important; border-width: 2px;">CRYSTAL - FUSION DECOLLIFTE MASK<br>₱40,000</ion-card-content>
+                        <ion-card-content style="padding: 9px; background-color: black; color: white; font-size: 13px; border-style: solid; border-color: grey!important; border-width: 2px; display: flex; align-items: center; justify-content: center; height: 80px;">CRYSTAL - FUSION DECOLLIFTE MASK<br>₱40,000</ion-card-content>
                     </ion-col> 
                     <ion-col style="text-align: center;">
                     </ion-col>

@@ -23,17 +23,17 @@
                 <ion-row>
                     <ion-col style="text-align: center;">
                         <ion-img :src="'/assets/SKIN CARE CATEGORY/FLASH WHITE PEARL SERIES/FLASH WHITE PEARLS FACIAL MASK_30000.jpg'" @click="() => router.push('/skinflashwhiteItem1')"/>
-                        <ion-card-content style="padding: 9px; background-color: black; color: white; font-size: 13px; border-style: solid; border-color: grey!important; border-width: 2px;">FLASH WHITE PEARLS FACIAL MASK<br>₱30,000</ion-card-content>
+                        <ion-card-content style="padding: 9px; background-color: black; color: white; font-size: 13px; border-style: solid; border-color: grey!important; border-width: 2px; display: flex; align-items: center; justify-content: center; height: 80px;">FLASH WHITE PEARLS FACIAL MASK<br>₱30,000</ion-card-content>
                     </ion-col>
                     <ion-col style="text-align: center;">
                         <ion-img :src="'/assets/SKIN CARE CATEGORY/FLASH WHITE PEARL SERIES/FLASH WHITE PEARLS FACIAL SERUM_20000.jpg'" @click="() => router.push('/skinflashwhiteItem2')"/>
-                        <ion-card-content style="padding: 9px; background-color: black; color: white; font-size: 13px; border-style: solid; border-color: grey!important; border-width: 2px;">FLASH WHITE PEARLS FACIAL SERUM<br>₱20,000</ion-card-content>
+                        <ion-card-content style="padding: 9px; background-color: black; color: white; font-size: 13px; border-style: solid; border-color: grey!important; border-width: 2px; display: flex; align-items: center; justify-content: center; height: 80px;">FLASH WHITE PEARLS FACIAL SERUM<br>₱20,000</ion-card-content>
                     </ion-col>
                 </ion-row>
                 <ion-row>
                     <ion-col style="text-align: center;">
                         <ion-img :src="'/assets/SKIN CARE CATEGORY/FLASH WHITE PEARL SERIES/FLASH WHITE PEARLS HYDRA CREAM_20000.jpg'" @click="() => router.push('/skinflashwhiteItem3')"/>
-                        <ion-card-content style="padding: 9px; background-color: black; color: white; font-size: 13px; border-style: solid; border-color: grey!important; border-width: 2px;">FLASH WHITE PEARLS HYDRA CREAM<br>₱20,000</ion-card-content>
+                        <ion-card-content style="padding: 9px; background-color: black; color: white; font-size: 13px; border-style: solid; border-color: grey!important; border-width: 2px; display: flex; align-items: center; justify-content: center; height: 80px;">FLASH WHITE PEARLS HYDRA CREAM<br>₱20,000</ion-card-content>
                     </ion-col> 
                     <ion-col style="text-align: center;">
                     </ion-col>

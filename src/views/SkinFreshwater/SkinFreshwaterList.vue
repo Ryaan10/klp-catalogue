@@ -23,21 +23,21 @@
                 <ion-row>
                     <ion-col style="text-align: center;">
                         <ion-img :src="'/assets/SKIN CARE CATEGORY/FRESHWATER PEARLS SERIES/FRESHWATER PEARLS EYE MAKEUP REMOVER_6900.jpg'" @click="() => router.push('/skinfreshwaterItem1')"/>
-                        <ion-card-content style="padding: 9px; background-color: black; color: white; font-size: 13px; border-style: solid; border-color: grey!important; border-width: 2px;">FRESHWATER PEARLS EYE MAKEUP REMOVER<br>₱6,900</ion-card-content>
+                        <ion-card-content style="padding: 9px; background-color: black; color: white; font-size: 13px; border-style: solid; border-color: grey!important; border-width: 2px; display: flex; align-items: center; justify-content: center; height: 80px;">FRESHWATER PEARLS EYE MAKEUP REMOVER<br>₱6,900</ion-card-content>
                     </ion-col>
                     <ion-col style="text-align: center;">
                         <ion-img :src="'/assets/SKIN CARE CATEGORY/FRESHWATER PEARLS SERIES/FRESHWATER PEARLS FACIAL CLARIFYING MILK_6900.jpg'" @click="() => router.push('/skinfreshwaterItem2')"/>
-                        <ion-card-content style="padding: 9px; background-color: black; color: white; font-size: 13px; border-style: solid; border-color: grey!important; border-width: 2px;">FRESHWATER PEARLS FACIAL CLARIFYING MILK<br>₱6,900</ion-card-content>
+                        <ion-card-content style="padding: 9px; background-color: black; color: white; font-size: 13px; border-style: solid; border-color: grey!important; border-width: 2px; display: flex; align-items: center; justify-content: center; height: 80px;">FRESHWATER PEARLS FACIAL CLARIFYING MILK<br>₱6,900</ion-card-content>
                     </ion-col>
                 </ion-row>
                 <ion-row>
                     <ion-col style="text-align: center;">
                         <ion-img :src="'/assets/SKIN CARE CATEGORY/FRESHWATER PEARLS SERIES/FRESHWATER PEARLS FACIAL CLEANSING SOAP_4000.jpg'" @click="() => router.push('/skinfreshwaterItem3')"/>
-                        <ion-card-content style="padding: 9px; background-color: black; color: white; font-size: 13px; border-style: solid; border-color: grey!important; border-width: 2px;">FRESHWATER PEARLS FACIAL CLEANSING SOAP<br>₱4,000</ion-card-content>
+                        <ion-card-content style="padding: 9px; background-color: black; color: white; font-size: 13px; border-style: solid; border-color: grey!important; border-width: 2px; display: flex; align-items: center; justify-content: center; height: 80px;">FRESHWATER PEARLS FACIAL CLEANSING SOAP<br>₱4,000</ion-card-content>
                     </ion-col> 
                     <ion-col style="text-align: center;">
                         <ion-img :src="'/assets/SKIN CARE CATEGORY/FRESHWATER PEARLS SERIES/FRESHWATER PEARLS FACIAL TONER_6900.jpg'" @click="() => router.push('/skinfreshwaterItem4')"/>
-                        <ion-card-content style="padding: 9px; background-color: black; color: white; font-size: 13px; border-style: solid; border-color: grey!important; border-width: 2px;">FRESHWATER PEARLS FACIAL TONER<br>₱6,900</ion-card-content>
+                        <ion-card-content style="padding: 9px; background-color: black; color: white; font-size: 13px; border-style: solid; border-color: grey!important; border-width: 2px; display: flex; align-items: center; justify-content: center; height: 80px;">FRESHWATER PEARLS FACIAL TONER<br>₱6,900</ion-card-content>
                     </ion-col> 
                 </ion-row>
             </ion-grid>

@@ -23,21 +23,21 @@
                 <ion-row>
                     <ion-col style="text-align: center;">
                         <ion-img :src="'/assets/SKIN CARE CATEGORY/HYALURONIC FIRMING SERIES/FTV HYALURONIC FIRMING IMMEDIATE WRINKLE SMOOTHER_11000.jpg'" @click="() => router.push('/skinhyaluronicItem1')"/>
-                        <ion-card-content style="padding: 9px; background-color: black; color: white; font-size: 13px; border-style: solid; border-color: grey!important; border-width: 2px;">FTV HYALURONIC FIRMING IMMEDIATE WRINKLE SMOOTHER<br>₱11,000</ion-card-content>
+                        <ion-card-content style="padding: 9px; background-color: black; color: white; font-size: 13px; border-style: solid; border-color: grey!important; border-width: 2px; display: flex; align-items: center; justify-content: center; height: 80px;">FTV HYALURONIC FIRMING IMMEDIATE WRINKLE SMOOTHER<br>₱11,000</ion-card-content>
                     </ion-col>
                     <ion-col style="text-align: center;">
                         <ion-img :src="'/assets/SKIN CARE CATEGORY/HYALURONIC FIRMING SERIES/HYALURONIC FIRMING FACIAL SERUM_20000.jpg'" @click="() => router.push('/skinhyaluronicItem2')"/>
-                        <ion-card-content style="padding: 9px; background-color: black; color: white; font-size: 13px; border-style: solid; border-color: grey!important; border-width: 2px;">HYALURONIC FIRMING FACIAL SERUM<br>₱20,000</ion-card-content>
+                        <ion-card-content style="padding: 9px; background-color: black; color: white; font-size: 13px; border-style: solid; border-color: grey!important; border-width: 2px; display: flex; align-items: center; justify-content: center; height: 80px;">HYALURONIC FIRMING FACIAL SERUM<br>₱20,000</ion-card-content>
                     </ion-col>
                 </ion-row>
                 <ion-row>
                     <ion-col style="text-align: center;">
                         <ion-img :src="'/assets/SKIN CARE CATEGORY/HYALURONIC FIRMING SERIES/HYALURONIC FIRMING MINUTE MASK_30000.jpg'" @click="() => router.push('/skinhyaluronicItem3')"/>
-                        <ion-card-content style="padding: 9px; background-color: black; color: white; font-size: 13px; border-style: solid; border-color: grey!important; border-width: 2px;">HYALURONIC FIRMING MINUTE MASK<br>₱30,000</ion-card-content>
+                        <ion-card-content style="padding: 9px; background-color: black; color: white; font-size: 13px; border-style: solid; border-color: grey!important; border-width: 2px; display: flex; align-items: center; justify-content: center; height: 80px;">HYALURONIC FIRMING MINUTE MASK<br>₱30,000</ion-card-content>
                     </ion-col> 
                     <ion-col style="text-align: center;">
                         <ion-img :src="'/assets/SKIN CARE CATEGORY/HYALURONIC FIRMING SERIES/HYALURONIC FIRMING MOIST FACIAL CREAM_20000.jpg'" @click="() => router.push('/skinhyaluronicItem4')"/>
-                        <ion-card-content style="padding: 9px; background-color: black; color: white; font-size: 13px; border-style: solid; border-color: grey!important; border-width: 2px;">HYALURONIC FIRMING MOIST FACIAL CREAM<br>₱20,000</ion-card-content>
+                        <ion-card-content style="padding: 9px; background-color: black; color: white; font-size: 13px; border-style: solid; border-color: grey!important; border-width: 2px; display: flex; align-items: center; justify-content: center; height: 80px;">HYALURONIC FIRMING MOIST FACIAL CREAM<br>₱20,000</ion-card-content>
                     </ion-col>
                 </ion-row>
             </ion-grid>

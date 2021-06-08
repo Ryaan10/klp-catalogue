@@ -23,21 +23,21 @@
                 <ion-row>
                     <ion-col style="text-align: center;">
                         <ion-img :src="'/assets/SKIN CARE CATEGORY/SKINCARE PACKAGES/24 KARAT GOLDEN BLACK PREMIUM SUITCASE_426000.jpg'" @click="() => router.push('/skinpackagesItem1')"/>
-                        <ion-card-content style="padding: 9px; background-color: black; color: white; font-size: 13px; border-style: solid; border-color: grey!important; border-width: 2px;">24 KARAT GOLDEN BLACK PREMIUM SUITCASE<br>₱426,000</ion-card-content>
+                        <ion-card-content style="padding: 9px; background-color: black; color: white; font-size: 13px; border-style: solid; border-color: grey!important; border-width: 2px; display: flex; align-items: center; justify-content: center; height: 80px;">24 KARAT GOLDEN BLACK PREMIUM SUITCASE<br>₱426,000</ion-card-content>
                     </ion-col>
                     <ion-col style="text-align: center;">
                         <ion-img :src="'/assets/SKIN CARE CATEGORY/SKINCARE PACKAGES/CRYSTAL - FUSION DECOLLIFTE PREMIUM CASE_100000.jpg'" @click="() => router.push('/skinpackagesItem2')"/>
-                        <ion-card-content style="padding: 9px; background-color: black; color: white; font-size: 13px; border-style: solid; border-color: grey!important; border-width: 2px;">CRYSTAL - FUSION DECOLLIFTE PREMIUM CASE<br>₱100,000</ion-card-content>
+                        <ion-card-content style="padding: 9px; background-color: black; color: white; font-size: 13px; border-style: solid; border-color: grey!important; border-width: 2px; display: flex; align-items: center; justify-content: center; height: 80px;">CRYSTAL - FUSION DECOLLIFTE PREMIUM CASE<br>₱100,000</ion-card-content>
                     </ion-col>
                 </ion-row>
                 <ion-row>
                     <ion-col style="text-align: center;">
                         <ion-img :src="'/assets/SKIN CARE CATEGORY/SKINCARE PACKAGES/FLASH WHITE PEARL PREMIUM CASE_100000.jpg'" @click="() => router.push('/skinpackagesItem3')"/>
-                        <ion-card-content style="padding: 9px; background-color: black; color: white; font-size: 13px; border-style: solid; border-color: grey!important; border-width: 2px;">FLASH WHITE PEARL PREMIUM CASE<br>₱100,000</ion-card-content>
+                        <ion-card-content style="padding: 9px; background-color: black; color: white; font-size: 13px; border-style: solid; border-color: grey!important; border-width: 2px; display: flex; align-items: center; justify-content: center; height: 80px;">FLASH WHITE PEARL PREMIUM CASE<br>₱100,000</ion-card-content>
                     </ion-col> 
                     <ion-col style="text-align: center;">
                         <ion-img :src="'/assets/SKIN CARE CATEGORY/SKINCARE PACKAGES/PREMIUM LUXURANT CRYSTALS CASE_160000.jpg'" @click="() => router.push('/skinpackagesItem4')"/>
-                        <ion-card-content style="padding: 9px; background-color: black; color: white; font-size: 13px; border-style: solid; border-color: grey!important; border-width: 2px;">PREMIUM LUXURANT CRYSTALS CASE<br>₱160,000</ion-card-content>
+                        <ion-card-content style="padding: 9px; background-color: black; color: white; font-size: 13px; border-style: solid; border-color: grey!important; border-width: 2px; display: flex; align-items: center; justify-content: center; height: 80px;">PREMIUM LUXURANT CRYSTALS CASE<br>₱160,000</ion-card-content>
                     </ion-col>
                 </ion-row>
             </ion-grid>

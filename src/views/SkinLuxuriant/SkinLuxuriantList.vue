@@ -23,27 +23,27 @@
                 <ion-row>
                     <ion-col style="text-align: center;">
                         <ion-img :src="'/assets/SKIN CARE CATEGORY/LUXURIANT CRYSTALS SERIES/LUXURIANT CRYSTALS CREAMY FACIAL SOAP_7000.jpg'" @click="() => router.push('/skinluxuriantItem1')"/>
-                        <ion-card-content style="padding: 9px; background-color: black; color: white; font-size: 13px; border-style: solid; border-color: grey!important; border-width: 2px;">LUXURIANT CRYSTALS CREAMY FACIAL SOAP<br>₱7,000</ion-card-content>
+                        <ion-card-content style="padding: 9px; background-color: black; color: white; font-size: 13px; border-style: solid; border-color: grey!important; border-width: 2px; display: flex; align-items: center; justify-content: center; height: 80px;">LUXURIANT CRYSTALS CREAMY FACIAL SOAP<br>₱7,000</ion-card-content>
                     </ion-col>
                     <ion-col style="text-align: center;">
                         <ion-img :src="'/assets/SKIN CARE CATEGORY/LUXURIANT CRYSTALS SERIES/LUXURIANT CRYSTALS FACIAL SERUM_20000.jpg'" @click="() => router.push('/skinluxuriantItem2')"/>
-                        <ion-card-content style="padding: 9px; background-color: black; color: white; font-size: 13px; border-style: solid; border-color: grey!important; border-width: 2px;">LUXURIANT CRYSTALS FACIAL SERUM<br>₱20,000</ion-card-content>
+                        <ion-card-content style="padding: 9px; background-color: black; color: white; font-size: 13px; border-style: solid; border-color: grey!important; border-width: 2px; display: flex; align-items: center; justify-content: center; height: 80px;">LUXURIANT CRYSTALS FACIAL SERUM<br>₱20,000</ion-card-content>
                     </ion-col>
                 </ion-row>
                 <ion-row>
                     <ion-col style="text-align: center;">
                         <ion-img :src="'/assets/SKIN CARE CATEGORY/LUXURIANT CRYSTALS SERIES/LUXURIANT CRYSTALS HYDRA FOUNTAIN CAPSULES_50000.jpg'" @click="() => router.push('/skinluxuriantItem3')"/>
-                        <ion-card-content style="padding: 9px; background-color: black; color: white; font-size: 13px; border-style: solid; border-color: grey!important; border-width: 2px;">LUXURIANT CRYSTALS HYDRA FOUNTAIN CAPSULES<br>₱50,000</ion-card-content>
+                        <ion-card-content style="padding: 9px; background-color: black; color: white; font-size: 13px; border-style: solid; border-color: grey!important; border-width: 2px; display: flex; align-items: center; justify-content: center; height: 80px;">LUXURIANT CRYSTALS HYDRA FOUNTAIN CAPSULES<br>₱50,000</ion-card-content>
                     </ion-col> 
                     <ion-col style="text-align: center;">
                         <ion-img :src="'/assets/SKIN CARE CATEGORY/LUXURIANT CRYSTALS SERIES/LUXURIANT CRYSTALS HYDRATION MASK_50000.jpg'" @click="() => router.push('/skinluxuriantItem4')"/>
-                        <ion-card-content style="padding: 9px; background-color: black; color: white; font-size: 13px; border-style: solid; border-color: grey!important; border-width: 2px;">LUXURIANT CRYSTALS HYDRATION MASK<br>₱50,000</ion-card-content>
+                        <ion-card-content style="padding: 9px; background-color: black; color: white; font-size: 13px; border-style: solid; border-color: grey!important; border-width: 2px; display: flex; align-items: center; justify-content: center; height: 80px;">LUXURIANT CRYSTALS HYDRATION MASK<br>₱50,000</ion-card-content>
                     </ion-col>
                 </ion-row>
                 <ion-row>
                     <ion-col style="text-align: center;">
                         <ion-img :src="'/assets/SKIN CARE CATEGORY/LUXURIANT CRYSTALS SERIES/LUXURIANT CRYSTALS NON-STOP MOISTURE CREAM_15000.jpg'" @click="() => router.push('/skinluxuriantItem5')"/>
-                        <ion-card-content style="padding: 9px; background-color: black; color: white; font-size: 13px; border-style: solid; border-color: grey!important; border-width: 2px;">LUXURIANT CRYSTALS NON-STOP MOISTURE CREAM<br>₱15,000</ion-card-content>
+                        <ion-card-content style="padding: 9px; background-color: black; color: white; font-size: 13px; border-style: solid; border-color: grey!important; border-width: 2px; display: flex; align-items: center; justify-content: center; height: 80px;">LUXURIANT CRYSTALS NON-STOP MOISTURE CREAM<br>₱15,000</ion-card-content>
                     </ion-col> 
                     <ion-col style="text-align: center;">
                     </ion-col>

@@ -23,21 +23,21 @@
                 <ion-row>
                     <ion-col style="text-align: center;">
                         <ion-img :src="'/assets/SKIN CARE CATEGORY/CHECKMATE PINK PEARL SERIES/CHECKMATE PINK PEARL FACIAL CREAM_7000.jpg'" @click="() => router.push('/skincheckmateItem1')"/>
-                        <ion-card-content style="padding: 9px; background-color: black; color: white; font-size: 13px; border-style: solid; border-color: grey!important; border-width: 2px;">CHECKMATE PINK PEARL FACIAL CREAM<br>₱7,000</ion-card-content>
+                        <ion-card-content style="padding: 9px; background-color: black; color: white; font-size: 13px; border-style: solid; border-color: grey!important; border-width: 2px; display: flex; align-items: center; justify-content: center; height: 80px;">CHECKMATE PINK PEARL FACIAL CREAM<br>₱7,000</ion-card-content>
                     </ion-col>
                     <ion-col style="text-align: center;">
                         <ion-img :src="'/assets/SKIN CARE CATEGORY/CHECKMATE PINK PEARL SERIES/CHECKMATE PINK PEARL FACIAL SERUM_14000.jpg'" @click="() => router.push('/skincheckmateItem2')"/>
-                        <ion-card-content style="padding: 9px; background-color: black; color: white; font-size: 13px; border-style: solid; border-color: grey!important; border-width: 2px;">CHECKMATE PINK PEARL FACIAL SERUM<br>₱14,000</ion-card-content>
+                        <ion-card-content style="padding: 9px; background-color: black; color: white; font-size: 13px; border-style: solid; border-color: grey!important; border-width: 2px; display: flex; align-items: center; justify-content: center; height: 80px;">CHECKMATE PINK PEARL FACIAL SERUM<br>₱14,000</ion-card-content>
                     </ion-col>
                 </ion-row>
                 <ion-row>
                     <ion-col style="text-align: center;">
                         <ion-img :src="'/assets/SKIN CARE CATEGORY/CHECKMATE PINK PEARL SERIES/CHECKMATE PINK PEARL PEELING GEL_7000.jpg'" @click="() => router.push('/skincheckmateItem3')"/>
-                        <ion-card-content style="padding: 9px; background-color: black; color: white; font-size: 13px; border-style: solid; border-color: grey!important; border-width: 2px;">CHECKMATE PINK PEARL PEELING GEL<br>₱7,000</ion-card-content>
+                        <ion-card-content style="padding: 9px; background-color: black; color: white; font-size: 13px; border-style: solid; border-color: grey!important; border-width: 2px; display: flex; align-items: center; justify-content: center; height: 80px;">CHECKMATE PINK PEARL PEELING GEL<br>₱7,000</ion-card-content>
                     </ion-col> 
                     <ion-col style="text-align: center;">
                         <ion-img :src="'/assets/SKIN CARE CATEGORY/CHECKMATE PINK PEARL SERIES/CHECKMATE PINK PEARL SPOT GEL_7000.jpg'" @click="() => router.push('/skincheckmateItem4')"/>
-                        <ion-card-content style="padding: 9px; background-color: black; color: white; font-size: 13px; border-style: solid; border-color: grey!important; border-width: 2px;">CHECKMATE PINK PEARL SPOT GEL<br>₱7,000</ion-card-content>
+                        <ion-card-content style="padding: 9px; background-color: black; color: white; font-size: 13px; border-style: solid; border-color: grey!important; border-width: 2px; display: flex; align-items: center; justify-content: center; height: 80px;">CHECKMATE PINK PEARL SPOT GEL<br>₱7,000</ion-card-content>
                     </ion-col>
                 </ion-row>
             </ion-grid>

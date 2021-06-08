@@ -23,27 +23,27 @@
                 <ion-row>
                     <ion-col style="text-align: center;">
                         <ion-img :src="'/assets/SKIN CARE CATEGORY/24 KARAT GOLDEN HERO SERIES/24 KARAT GOLDEN HERO EYE CREAM_30000.jpg'" @click="() => router.push('/skin24goldItem1')"/>
-                        <ion-card-content style="padding: 9px; background-color: black; color: white; font-size: 13px; border-style: solid; border-color: grey!important; border-width: 2px;">24 KARAT GOLDEN HERO EYE CREAM<br>₱30,000</ion-card-content>
+                        <ion-card-content style="padding: 9px; background-color: black; color: white; font-size: 13px; border-style: solid; border-color: grey!important; border-width: 2px; display: flex; align-items: center; justify-content: center; height: 80px;">24 KARAT GOLDEN HERO EYE CREAM<br>₱30,000</ion-card-content>
                     </ion-col>
                     <ion-col style="text-align: center;">
                         <ion-img :src="'/assets/SKIN CARE CATEGORY/24 KARAT GOLDEN HERO SERIES/24 KARAT GOLDEN HERO FACIAL SERUM_160000.jpg'" @click="() => router.push('/skin24goldItem2')"/>
-                        <ion-card-content style="padding: 9px; background-color: black; color: white; font-size: 13px; border-style: solid; border-color: grey!important; border-width: 2px;">24 KARAT GOLDEN HERO FACIAL SERUM<br>₱160,000</ion-card-content>
+                        <ion-card-content style="padding: 9px; background-color: black; color: white; font-size: 13px; border-style: solid; border-color: grey!important; border-width: 2px; display: flex; align-items: center; justify-content: center; height: 80px;">24 KARAT GOLDEN HERO FACIAL SERUM<br>₱160,000</ion-card-content>
                     </ion-col>
                 </ion-row>
                 <ion-row>
                     <ion-col style="text-align: center;">
                         <ion-img :src="'/assets/SKIN CARE CATEGORY/24 KARAT GOLDEN HERO SERIES/24 KARAT GOLDEN HERO HYDRATION CREAM_50000.jpg'" @click="() => router.push('/skin24goldItem3')"/>
-                        <ion-card-content style="padding: 9px; background-color: black; color: white; font-size: 13px; border-style: solid; border-color: grey!important; border-width: 2px;">24 KARAT GOLDEN HERO HYDRATION CREAM<br>₱50,000</ion-card-content>
+                        <ion-card-content style="padding: 9px; background-color: black; color: white; font-size: 13px; border-style: solid; border-color: grey!important; border-width: 2px; display: flex; align-items: center; justify-content: center; height: 80px;">24 KARAT GOLDEN HERO HYDRATION CREAM<br>₱50,000</ion-card-content>
                     </ion-col> 
                     <ion-col style="text-align: center;">
                         <ion-img :src="'/assets/SKIN CARE CATEGORY/24 KARAT GOLDEN HERO SERIES/24 KARAT GOLDEN HERO MEGA MASK_150000.jpg'" @click="() => router.push('/skin24goldItem4')"/>
-                        <ion-card-content style="padding: 9px; background-color: black; color: white; font-size: 13px; border-style: solid; border-color: grey!important; border-width: 2px;">24 KARAT GOLDEN HERO MEGA MASK<br>₱150,000</ion-card-content>
+                        <ion-card-content style="padding: 9px; background-color: black; color: white; font-size: 13px; border-style: solid; border-color: grey!important; border-width: 2px; display: flex; align-items: center; justify-content: center; height: 80px;">24 KARAT GOLDEN HERO MEGA MASK<br>₱150,000</ion-card-content>
                     </ion-col>
                 </ion-row>
                 <ion-row>
                     <ion-col style="text-align: center;">
                         <ion-img :src="'/assets/SKIN CARE CATEGORY/24 KARAT GOLDEN HERO SERIES/24 KARAT GOLDEN HERO PEELING GEL_20000.jpg'" @click="() => router.push('/skin24goldItem5')"/>
-                        <ion-card-content style="padding: 9px; background-color: black; color: white; font-size: 13px; border-style: solid; border-color: grey!important; border-width: 2px;">24 KARAT GOLDEN HERO PEELING GEL<br>₱20,000</ion-card-content>
+                        <ion-card-content style="padding: 9px; background-color: black; color: white; font-size: 13px; border-style: solid; border-color: grey!important; border-width: 2px; display: flex; align-items: center; justify-content: center; height: 80px;">24 KARAT GOLDEN HERO PEELING GEL<br>₱20,000</ion-card-content>
                     </ion-col>
                     <ion-col style="text-align: center;">
                     </ion-col>
