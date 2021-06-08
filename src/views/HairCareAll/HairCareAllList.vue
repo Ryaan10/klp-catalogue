@@ -23,37 +23,37 @@
                 <ion-row>
                     <ion-col style="text-align: center;">
                         <ion-img :src="'/assets/HAIR CARE CATEGORY/All Products/NOURISHING SHAMPOO_49.976.jpg'" @click="() => router.push('/HairCareAllItem1')"/>
-                        <ion-card-content style="padding: 9px; background-color: black; color: white; font-size: 13px; border-style: solid; border-color: grey!important; border-width: 2px;">CELEB STYLE NOURISHING SHAMPOO<br>₱4,000</ion-card-content>
+                        <ion-card-content style="padding: 9px; background-color: black; color: white; font-size: 13px; border-style: solid; border-color: grey!important; border-width: 2px;  display: flex; align-items: center; justify-content: center; height: 80px;">CELEB STYLE NOURISHING SHAMPOO<br>₱4,000</ion-card-content>
                     </ion-col>
                     <ion-col style="text-align: center;">
                         <ion-img :src="'/assets/HAIR CARE CATEGORY/All Products/NOURISHING CONDITIONER_49.976.jpg'" @click="() => router.push('/HairCareAllItem2')"/>
-                        <ion-card-content style="padding: 9px; background-color: black; color: white; font-size: 13px; border-style: solid; border-color: grey!important; border-width: 2px;">CELEB STYLE NOURISHING CONDITIONER<br>₱4,000</ion-card-content>
+                        <ion-card-content style="padding: 9px; background-color: black; color: white; font-size: 13px; border-style: solid; border-color: grey!important; border-width: 2px;  display: flex; align-items: center; justify-content: center; height: 80px;">CELEB STYLE NOURISHING CONDITIONER<br>₱4,000</ion-card-content>
                     </ion-col>
                 </ion-row>
                 <ion-row>
                     <ion-col style="text-align: center;">
                         <ion-img :src="'/assets/HAIR CARE CATEGORY/All Products/NOURISHING INTENSIVE MASK_90.jpg'" @click="() => router.push('/HairCareAllItem3')"/>
-                        <ion-card-content style="padding: 9px; background-color: black; color: white; font-size: 13px; border-style: solid; border-color: grey!important; border-width: 2px;">CELEB STYLE NOURISHING INTENSIVE MASK<br>₱8,700</ion-card-content>
+                        <ion-card-content style="padding: 9px; background-color: black; color: white; font-size: 13px; border-style: solid; border-color: grey!important; border-width: 2px;  display: flex; align-items: center; justify-content: center; height: 80px;">CELEB STYLE NOURISHING INTENSIVE MASK<br>₱8,700</ion-card-content>
                     </ion-col> 
                     <ion-col style="text-align: center;">
                         <ion-img :src="'/assets/HAIR CARE CATEGORY/All Products/HEAT STYLING PROTECTION SPRAY_80.jpg'" @click="() => router.push('/HairCareAllItem4')"/>
-                        <ion-card-content style="padding: 9px; background-color: black; color: white; font-size: 13px; border-style: solid; border-color: grey!important; border-width: 2px;">CELEB STYLE HEAT STYLING PROTECTION SPRAY<br>₱7,100</ion-card-content>
+                        <ion-card-content style="padding: 9px; background-color: black; color: white; font-size: 13px; border-style: solid; border-color: grey!important; border-width: 2px;  display: flex; align-items: center; justify-content: center; height: 80px;">CELEB STYLE HEAT STYLING PROTECTION SPRAY<br>₱7,100</ion-card-content>
                     </ion-col>
                 </ion-row>
                 <ion-row>
                     <ion-col style="text-align: center;">
                         <ion-img :src="'/assets/HAIR CARE CATEGORY/All Products/NOURISHING OIL_140.jpg'" @click="() => router.push('/HairCareAllItem5')"/>
-                        <ion-card-content style="padding: 9px; background-color: black; color: white; font-size: 13px; border-style: solid; border-color: grey!important; border-width: 2px;">CELEB STYLE NOURISHING OIL<br>₱14,700</ion-card-content>
+                        <ion-card-content style="padding: 9px; background-color: black; color: white; font-size: 13px; border-style: solid; border-color: grey!important; border-width: 2px;  display: flex; align-items: center; justify-content: center; height: 80px;">CELEB STYLE NOURISHING OIL<br>₱14,700</ion-card-content>
                     </ion-col>
                     <ion-col style="text-align: center;">
                         <ion-img :src="'/assets/HAIR CARE CATEGORY/All Products/VOLUMETRIC SPRAY_70.jpg'" @click="() => router.push('/HairCareAllItem6')"/>
-                        <ion-card-content style="padding: 9px; background-color: black; color: white; font-size: 13px; border-style: solid; border-color: grey!important; border-width: 2px;">CELEB STYLE VOLUMETRIC SPRAY<br>₱6,900</ion-card-content>
+                        <ion-card-content style="padding: 9px; background-color: black; color: white; font-size: 13px; border-style: solid; border-color: grey!important; border-width: 2px;  display: flex; align-items: center; justify-content: center; height: 80px;">CELEB STYLE VOLUMETRIC SPRAY<br>₱6,900</ion-card-content>
                     </ion-col>
                 </ion-row>
                 <ion-row>
                     <ion-col style="text-align: center;">
                         <ion-img :src="'/assets/HAIR CARE CATEGORY/All Products/SERUM FOR SPLIT ENDS_135.jpg'" @click="() => router.push('/HairCareAllItem7')"/>
-                        <ion-card-content style="padding: 9px; background-color: black; color: white; font-size: 13px; border-style: solid; border-color: grey!important; border-width: 2px;">CELEB STYLE SERUM FOR SPLIT ENDS<br>₱13,500</ion-card-content>
+                        <ion-card-content style="padding: 9px; background-color: black; color: white; font-size: 13px; border-style: solid; border-color: grey!important; border-width: 2px;  display: flex; align-items: center; justify-content: center; height: 80px;">CELEB STYLE SERUM FOR SPLIT ENDS<br>₱13,500</ion-card-content>
                     </ion-col> 
                     <ion-col style="text-align: center;">
                     </ion-col>

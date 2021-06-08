@@ -26,6 +26,8 @@
                         <ion-img :src="'/assets/HAIR CARE CATEGORY/HEAT STYLING PROTECTION SPRAY_80.jpg'" @click="() => router.push('/HairCareAllList')"/>
                         <ion-card-content style="padding: 9px; background-color: black; color: white; font-size: 13px; border-style: solid; border-color: grey!important; border-width: 2px;">ALL PRODUCTS</ion-card-content>
                     </ion-col>
+                    <ion-col style="text-align: center;">
+                       </ion-col>
                 </ion-row>
             </ion-grid>
         </div>

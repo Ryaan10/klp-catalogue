@@ -23,57 +23,57 @@
                 <ion-row>
                     <ion-col style="text-align: center;">
                         <ion-img :src="'/assets/MAKEUP CATEGORY/For eyes/SOLO SATIN EYE SHADOW_4800.jpg'" @click="() => router.push('/MakeupEyesItem1')"/>
-                        <ion-card-content style="padding: 9px; background-color: black; color: white; font-size: 13px; border-style: solid; border-color: grey!important; border-width: 2px;">SOLO SATIN EYE SHADOW<br>₱4,800</ion-card-content>
+                        <ion-card-content style="padding: 9px; background-color: black; color: white; font-size: 13px; border-style: solid; border-color: grey!important; border-width: 2px; display: flex; align-items: center; justify-content: center; height: 80px;">SOLO SATIN EYE SHADOW<br>₱4,800</ion-card-content>
                     </ion-col>
                     <ion-col style="text-align: center;">
                         <ion-img :src="'/assets/MAKEUP CATEGORY/For eyes/MULTICOLOR EYE SHADOW_5500.jpg'" @click="() => router.push('/MakeupEyesItem2')"/>
-                        <ion-card-content style="padding: 9px; background-color: black; color: white; font-size: 13px; border-style: solid; border-color: grey!important; border-width: 2px;">MULTICOLOR EYE SHADOW<br>₱5,500</ion-card-content>
+                        <ion-card-content style="padding: 9px; background-color: black; color: white; font-size: 13px; border-style: solid; border-color: grey!important; border-width: 2px; display: flex; align-items: center; justify-content: center; height: 80px;">MULTICOLOR EYE SHADOW<br>₱5,500</ion-card-content>
                     </ion-col>
                 </ion-row>
                 <ion-row>
                     <ion-col style="text-align: center;">
                         <ion-img :src="'/assets/MAKEUP CATEGORY/For eyes/MULTICOLOR EYE SHADOW (other available).jpg'" @click="() => router.push('/MakeupEyesItem3')"/>
-                        <ion-card-content style="padding: 9px; background-color: black; color: white; font-size: 13px; border-style: solid; border-color: grey!important; border-width: 2px;">MULTICOLOR EYE SHADOW<br>₱5,500</ion-card-content>
+                        <ion-card-content style="padding: 9px; background-color: black; color: white; font-size: 13px; border-style: solid; border-color: grey!important; border-width: 2px; display: flex; align-items: center; justify-content: center; height: 80px;">MULTICOLOR EYE SHADOW<br>₱5,500</ion-card-content>
                     </ion-col> 
                     <ion-col style="text-align: center;">
                         <ion-img :src="'/assets/MAKEUP CATEGORY/For eyes/FLOWER PALETTE_8800.jpg'" @click="() => router.push('/MakeupEyesItem4')"/>
-                        <ion-card-content style="padding: 9px; background-color: black; color: white; font-size: 13px; border-style: solid; border-color: grey!important; border-width: 2px;">FLOWER PALETTE<br>₱8,800</ion-card-content>
+                        <ion-card-content style="padding: 9px; background-color: black; color: white; font-size: 13px; border-style: solid; border-color: grey!important; border-width: 2px; display: flex; align-items: center; justify-content: center; height: 80px;">FLOWER PALETTE<br>₱8,800</ion-card-content>
                     </ion-col>
                 </ion-row>
                 <ion-row>
                     <ion-col style="text-align: center;">
                         <ion-img :src="'/assets/MAKEUP CATEGORY/For eyes/TRIANGLE PALLETTE_8800.jpg'" @click="() => router.push('/MakeupEyesItem5')"/>
-                        <ion-card-content style="padding: 9px; background-color: black; color: white; font-size: 13px; border-style: solid; border-color: grey!important; border-width: 2px;">TRIANGLE PALLETTE<br>₱8,800</ion-card-content>
+                        <ion-card-content style="padding: 9px; background-color: black; color: white; font-size: 13px; border-style: solid; border-color: grey!important; border-width: 2px; display: flex; align-items: center; justify-content: center; height: 80px;">TRIANGLE PALLETTE<br>₱8,800</ion-card-content>
                     </ion-col>
                     <ion-col style="text-align: center;">
                         <ion-img :src="'/assets/MAKEUP CATEGORY/For eyes/BUBBLE PALLETTE_8800.jpg'" @click="() => router.push('/MakeupEyesItem6')"/>
-                        <ion-card-content style="padding: 9px; background-color: black; color: white; font-size: 13px; border-style: solid; border-color: grey!important; border-width: 2px;">BUBBLE PALLETTE<br>₱8,800</ion-card-content>
+                        <ion-card-content style="padding: 9px; background-color: black; color: white; font-size: 13px; border-style: solid; border-color: grey!important; border-width: 2px; display: flex; align-items: center; justify-content: center; height: 80px;">BUBBLE PALLETTE<br>₱8,800</ion-card-content>
                     </ion-col>
                 </ion-row>
                 <ion-row>
                     <ion-col style="text-align: center;">
                         <ion-img :src="'/assets/MAKEUP CATEGORY/For eyes/SHINING LOOSE EYE SHADOW_6000.jpg'" @click="() => router.push('/MakeupEyesItem7')"/>
-                        <ion-card-content style="padding: 9px; background-color: black; color: white; font-size: 13px; border-style: solid; border-color: grey!important; border-width: 2px;">SHINING LOOSE EYE SHADOW<br>₱6,000</ion-card-content>
+                        <ion-card-content style="padding: 9px; background-color: black; color: white; font-size: 13px; border-style: solid; border-color: grey!important; border-width: 2px; display: flex; align-items: center; justify-content: center; height: 80px;">SHINING LOOSE EYE SHADOW<br>₱6,000</ion-card-content>
                     </ion-col> 
                     <ion-col style="text-align: center;">
                         <ion-img :src="'/assets/MAKEUP CATEGORY/For eyes/EYE PENCIL_3500.jpg'" @click="() => router.push('/MakeupEyesItem8')"/>
-                        <ion-card-content style="padding: 9px; background-color: black; color: white; font-size: 13px; border-style: solid; border-color: grey!important; border-width: 2px;">EYE PENCIL<br>₱3,500</ion-card-content>
+                        <ion-card-content style="padding: 9px; background-color: black; color: white; font-size: 13px; border-style: solid; border-color: grey!important; border-width: 2px; display: flex; align-items: center; justify-content: center; height: 80px;">EYE PENCIL<br>₱3,500</ion-card-content>
                     </ion-col>
                 </ion-row>
                 <ion-row>
                     <ion-col style="text-align: center;">
                         <ion-img :src="'/assets/MAKEUP CATEGORY/For eyes/EYE LINER_5500.jpg'" @click="() => router.push('/MakeupEyesItem9')"/>
-                        <ion-card-content style="padding: 9px; background-color: black; color: white; font-size: 13px; border-style: solid; border-color: grey!important; border-width: 2px;">EYE LINER<br>₱5,500</ion-card-content>
+                        <ion-card-content style="padding: 9px; background-color: black; color: white; font-size: 13px; border-style: solid; border-color: grey!important; border-width: 2px; display: flex; align-items: center; justify-content: center; height: 80px;">EYE LINER<br>₱5,500</ion-card-content>
                     </ion-col>
                     <ion-col style="text-align: center;">
                         <ion-img :src="'/assets/MAKEUP CATEGORY/For eyes/VOLUME MASCARA_6000.jpg'" @click="() => router.push('/MakeupEyesItem10')"/>
-                        <ion-card-content style="padding: 9px; background-color: black; color: white; font-size: 13px; border-style: solid; border-color: grey!important; border-width: 2px;">VOLUME MASCARA<br>₱6,000</ion-card-content>
+                        <ion-card-content style="padding: 9px; background-color: black; color: white; font-size: 13px; border-style: solid; border-color: grey!important; border-width: 2px; display: flex; align-items: center; justify-content: center; height: 80px;">VOLUME MASCARA<br>₱6,000</ion-card-content>
                     </ion-col>
                 </ion-row>
                 <ion-row>
                     <ion-col style="text-align: center;">
                         <ion-img :src="'/assets/MAKEUP CATEGORY/For eyes/LONG LASH MASCARA SILICONE BLACK_6000.jpg'" @click="() => router.push('/MakeupEyesItem11')"/>
-                        <ion-card-content style="padding: 9px; background-color: black; color: white; font-size: 13px; border-style: solid; border-color: grey!important; border-width: 2px;">LONG LASH MASCARA SILICONE BLACK<br>₱6,000</ion-card-content>
+                        <ion-card-content style="padding: 9px; background-color: black; color: white; font-size: 13px; border-style: solid; border-color: grey!important; border-width: 2px; display: flex; align-items: center; justify-content: center; height: 80px;">LONG LASH MASCARA SILICONE BLACK<br>₱6,000</ion-card-content>
                     </ion-col>
                     <ion-col style="text-align: center;">
                     </ion-col>

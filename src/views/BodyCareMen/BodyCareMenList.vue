@@ -23,9 +23,11 @@
                 <ion-row>
                     <ion-col style="text-align: center;">
                         <ion-img :src="'/assets/BODY CARE CATEGORY/For Men/FASHION ELIXIR 3IN1 AFTERSHAVE CREAM_17000.jpg'" @click="() => router.push('/BodyCareMenItem1')"/>
-                        <ion-card-content style="padding: 9px; background-color: black; color: white; font-size: 13px; border-style: solid; border-color: grey!important; border-width: 2px;">FASHION ELIXIR 3IN1 AFTERSHAVE CREAM: FOR MEN<br>₱17,000</ion-card-content>
+                        <ion-card-content style="padding: 9px; background-color: black; color: white; font-size: 13px; border-style: solid; border-color: grey!important; border-width: 2px; display: flex; align-items: center; justify-content: center; height: 80px;">FASHION ELIXIR 3IN1 AFTERSHAVE CREAM: FOR MEN<br>₱17,000</ion-card-content>
                     </ion-col>
-                </ion-row>
+                        <ion-col style="text-align: center;">
+                        </ion-col>
+                    </ion-row>
               
             </ion-grid>
         </div>
