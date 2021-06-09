@@ -22,31 +22,31 @@
             <ion-grid>
                 <ion-row>
                     <ion-col style="text-align: center;">
-                        <ion-img :src="'/assets/MAKEUP CATEGORY/For lips/1.png'" @click="() => router.push('/MakeupLipsItem1')"/>
+                        <ion-img :src="'/assets/MAKEUP CATEGORY/For Lips/SOLO SATIN EYE SHADOW_4800.jpg'" @click="() => router.push('/MakeupLipsItem1')"/>
                         <ion-card-content style="padding: 9px; background-color: black; color: white; font-size: 13px; border-style: solid; border-color: grey!important; border-width: 2px; display: flex; align-items: center; justify-content: center; height: 80px;">CHUBBY LIPSTICK<br>₱5,600</ion-card-content>
                     </ion-col>
                     <ion-col style="text-align: center;">
-                        <ion-img :src="'/assets/MAKEUP CATEGORY/For lips/2.png'" @click="() => router.push('/MakeupLipsItem2')"/>
+                        <ion-img :src="'/assets/MAKEUP CATEGORY/For lips/LIP GLOSS.jpg'" @click="() => router.push('/MakeupLipsItem2')"/>
                         <ion-card-content style="padding: 9px; background-color: black; color: white; font-size: 13px; border-style: solid; border-color: grey!important; border-width: 2px; display: flex; align-items: center; justify-content: center; height: 80px;">LIP GLOSS<br>₱4,000</ion-card-content>
                     </ion-col>
                 </ion-row>
                 <ion-row>
                     <ion-col style="text-align: center;">
-                        <ion-img :src="'/assets/MAKEUP CATEGORY/For lips/3.png'" @click="() => router.push('/MakeupLipsItem3')"/>
+                        <ion-img :src="'/assets/MAKEUP CATEGORY/For lips/LIP PENCIL.jpg'" @click="() => router.push('/MakeupLipsItem3')"/>
                         <ion-card-content style="padding: 9px; background-color: black; color: white; font-size: 13px; border-style: solid; border-color: grey!important; border-width: 2px; display: flex; align-items: center; justify-content: center; height: 80px;">LIP PENCIL<br>₱3,500</ion-card-content>
                     </ion-col> 
                     <ion-col style="text-align: center;">
-                        <ion-img :src="'/assets/MAKEUP CATEGORY/For lips/4.png'" @click="() => router.push('/MakeupLipsItem4')"/>
+                        <ion-img :src="'/assets/MAKEUP CATEGORY/For lips/LIP ESSENTIALS.jpg'" @click="() => router.push('/MakeupLipsItem4')"/>
                         <ion-card-content style="padding: 9px; background-color: black; color: white; font-size: 13px; border-style: solid; border-color: grey!important; border-width: 2px; display: flex; align-items: center; justify-content: center; height: 80px;">LIP ESSENTIALS - MATTE LIPSTICK<br>₱4,800</ion-card-content>
                     </ion-col>
                 </ion-row>
                 <ion-row>
                     <ion-col style="text-align: center;">
-                        <ion-img :src="'/assets/MAKEUP CATEGORY/For lips/5.png'" @click="() => router.push('/MakeupLipsItem5')"/>
+                        <ion-img :src="'/assets/MAKEUP CATEGORY/For lips/FTV PURE LIP COLOR.jpg'" @click="() => router.push('/MakeupLipsItem5')"/>
                         <ion-card-content style="padding: 9px; background-color: black; color: white; font-size: 13px; border-style: solid; border-color: grey!important; border-width: 2px; display: flex; align-items: center; justify-content: center; height: 80px;">FTV PURE LIP COLOR<br>₱4,800</ion-card-content>
                     </ion-col>
                     <ion-col style="text-align: center;">
-                        <ion-img :src="'/assets/MAKEUP CATEGORY/For lips/6.png'" @click="() => router.push('/MakeupLipsItem6')"/>
+                        <ion-img :src="'/assets/MAKEUP CATEGORY/For lips/LIP BALM.jpg'" @click="() => router.push('/MakeupLipsItem6')"/>
                         <ion-card-content style="padding: 9px; background-color: black; color: white; font-size: 13px; border-style: solid; border-color: grey!important; border-width: 2px; display: flex; align-items: center; justify-content: center; height: 80px;">LIP BALM<br>₱6,600</ion-card-content>
                     </ion-col>
                 </ion-row>
