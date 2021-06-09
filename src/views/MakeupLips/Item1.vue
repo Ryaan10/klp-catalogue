@@ -36,7 +36,7 @@
                         <ion-slides pager="false" :options="slideOpts" ref="mySlides">
                             <ion-slide>
                                 <div>
-                                    <ion-img :src="'/assets/MAKEUP CATEGORY/For lips/1.jpg'" id="product" style="margin-top: 15px; margin-bottom: 15px; height: 300px;"/>
+                                    <ion-img :src="'/assets/MAKEUP CATEGORY/For lips/1.png'" id="product" style="margin-top: 15px; margin-bottom: 15px; height: 300px;"/>
                                 </div>
                             </ion-slide>
                         </ion-slides>  
